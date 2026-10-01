@@ -8,6 +8,21 @@ module.exports = function (eleventyConfig) {
 
   // Rewrites every absolute link and image path so the site works at the domain root or in a project sub folder.
   eleventyConfig.addPlugin(HtmlBasePlugin);
+    // Links to other websites, and links to files such as PDFs, open in a new tab.
+  // Links that move around this website stay in the same tab.
+  eleventyConfig.addTransform("externalLinks", function (content) {
+    if (!(this.page.outputPath || "").endsWith(".html")) return content;
+    const own = /^https?:\/\/(www\.)?thibaultlab\.com|^https?:\/\/g-tibo\.github\.io\/thibaultlab/i;
+    return content.replace(/<a\s([^>]*?)>/gi, (tag, attrs) => {
+      const m = attrs.match(/\bhref\s*=\s*(["'])(.*?)\1/i);
+      if (!m || /\btarget\s*=/i.test(attrs)) return tag;
+      const href = m[2];
+      const external = /^(https?:)?\/\//i.test(href) && !own.test(href);
+      const file = /\.(pdf|m4a|mp3|zip|docx?|xlsx?|pptx?)(\?|#|$)/i.test(href);
+      if (!external && !file) return tag;
+      return `<a ${attrs.trim()} target="_blank" rel="noopener">`;
+    });
+  });
 
   eleventyConfig.addPassthroughCopy({ "src/assets": "assets" });
   eleventyConfig.addPassthroughCopy("src/s");
