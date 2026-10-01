@@ -1,0 +1,22 @@
+---
+layout: layouts/base.njk
+title: Research
+navkey: research
+permalink: /research/
+description: Research in the Thibault Lab covers ER stress, lipid bilayer stress, IRE1 signaling, ER-phagy, host-pathogen interactions in chronic wounds and bioinformatics tools.
+---
+<div class="wrap">
+  <div class="pub-head"><h1>Research</h1></div>
+  <div id="research">
+  {% for g in research %}
+    <h2 class="rgroup">{{ g.title }}</h2>
+    {% for it in g.items %}
+    <div class="rs">
+      <div class="fig">{% if it.figure == "upr-sensors" %}{% include "partials/upr-sensors.njk" %}{% else %}<img src="/assets/research/{{ it.figure }}.png" alt="" loading="lazy">{% endif %}</div>
+      <div>{% if it.title %}<h3>{{ it.title }}</h3>{% endif %}{% for p in it.paragraphs %}<p>{{ p | safe }}</p>{% endfor %}</div>
+    </div>
+    {% endfor %}
+  {% endfor %}
+  </div>
+  <div style="height:56px"></div>
+</div>

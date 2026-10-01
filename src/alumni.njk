@@ -1,0 +1,15 @@
+---
+layout: layouts/base.njk
+title: Alumni
+navkey: people
+permalink: /alumni/
+---
+<div class="wrap">
+  <p class="back"><a href="/people/">Back to the team</a></p>
+  <div class="pub-head" style="padding-top:24px"><h1>Alumni</h1></div>
+  <h2 class="alh">Research staff and graduate students</h2>
+  <div class="alum">{% for a in alumni.staff %}<div class="arow"><b>{{ a.name }}</b>{% for d in a.details %}<p>{{ d | safe }}</p>{% endfor %}</div>{% endfor %}</div>
+  <h2 class="alh">Undergraduate students</h2>
+  <div class="alum">{% for a in alumni.undergraduate %}<div class="arow"><b>{{ a.name }}</b>{% for d in a.details %}<p>{{ d | safe }}</p>{% endfor %}</div>{% endfor %}</div>
+  <div style="height:88px"></div>
+</div>

@@ -1,0 +1,29 @@
+---
+layout: layouts/base.njk
+title: News
+navkey: news
+permalink: /news/
+description: News and media coverage from the Thibault Lab.
+---
+<div class="wrap">
+  <div class="pub-head"><h1>News</h1>
+    <p>For the latest lab updates, please follow <a href="{{ site.bluesky }}" target="_blank" rel="noopener">Guillaume Thibault on Bluesky</a>.</p></div>
+  <h2 class="nh">Media coverage</h2>
+  <div id="news">
+  {% for y in news %}
+    <div class="ny"><h3>{{ y.year }}</h3><div>
+    {% for b in y.blocks %}
+      <div class="nb">
+      {% if b.html %}<div class="nl">{{ b.html | safe }}</div>
+      {% else %}
+        <div class="nl">{{ b.heading | safe }}</div>
+        {% for i in b.items %}<div class="nl">{% if i.outlet %}<b>{{ i.outlet }}</b> <span class="sep">·</span> <a href="{{ i.url }}">{{ i.title | safe }}</a>{{ i.extra | safe }}{% else %}{{ i.html | safe }}{% endif %}</div>
+        {% endfor %}
+      {% endif %}
+      </div>
+    {% endfor %}
+    </div></div>
+  {% endfor %}
+  </div>
+  <div style="height:88px"></div>
+</div>

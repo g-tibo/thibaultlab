@@ -1,0 +1,19 @@
+---
+layout: layouts/base.njk
+navkey: people
+---
+<div class="wrap">
+  <div class="person">
+    <aside class="pside">
+      <p class="back"><a href="/people/">Back to the team</a></p>
+      <div class="ph"><img src="/assets/people/{{ photo }}" alt="{{ name }}" width="400" height="400"></div>
+    </aside>
+    <div>
+      <h1>{{ name }}</h1>
+      <p class="role">{{ role }}</p>
+      {% if credentials %}<div class="creds">{% for c in credentials %}<p>{{ c | safe }}</p>{% endfor %}</div>{% endif %}
+      {% if email or links %}<div class="plinks">{% if email %}<a href="mailto:{{ email }}">Email</a>{% endif %}{% for l in links %}<a href="{{ l.url }}" target="_blank" rel="noopener">{{ l.label }}</a>{% endfor %}</div>{% endif %}
+      <div class="prose">{{ content | safe }}</div>
+    </div>
+  </div>
+</div>

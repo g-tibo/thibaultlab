@@ -1,0 +1,248 @@
+# Media coverage. Add new years at the top.
+# A block is either a single line of HTML (html) or a heading with a list of outlets.
+- year: '2026'
+  blocks:
+  - html: <b>Thesis Defense</b> <span class="sep">·</span> <a href="/alumni/">Saeed Alzahrani</a> successfully defended his thesis on 13 May 2026. All the best in your new role as Assistant Professor at Al Baha University.
+  - html: <b>Best Poster Award</b> <span class="sep">·</span> <a href="/alumni/">Hatice Holuigue</a> won best poster award at the <a href="https://www.asbte2026.org/">30th Annual Australasian Society for Biomaterials &amp; Tissue Engineering</a>. Congrats Hatice!
+  - heading: <b>Local Media Coverage</b> | from our publication in <a href="https://doi.org/10.1126/sciadv.aeb5297">Science Advances</a>
+    items:
+    - outlet: NTU News
+      title: New way to disarm antibiotic-resistant bacteria and restore healing in chronic wounds
+      url: https://www.ntu.edu.sg/news/detail/new-way-to-disarm-antibiotic-resistant-bacteria-and-restore-healing-in-chronic-wounds
+    - outlet: Tamil Murasu
+      title: நாட்பட்ட காயங்களை குணமாக்கும் ஆய்வில் தொழில்நுட்பப் பல்கலைக்கழகம்
+      url: https://www.tamilmurasu.com.sg/singapore/nanyang-technological-university-study-healing-chronic-wounds
+    - outlet: The Straits Times
+      title: S’pore study finds new way to disarm antibiotic-resistant bacteria, hasten healing of chronic wounds
+      url: https://www.straitstimes.com/singapore/health/spore-study-finds-new-way-to-disarm-antibiotic-resistant-bacteria-speed-up-healing-of-chronic-wounds
+    - outlet: zaobao
+      title: 新瑞研究团队找到新方法 加速慢性伤口愈合
+      url: https://www.zaobao.com.sg/news/singapore/story20260117-8115815
+  - heading: <b>International Media Coverage </b>| from our publication in <a href="https://doi.org/10.1126/sciadv.aeb5297">Science Advances</a>
+    items:
+    - outlet: AlphaGalileo
+      title: NTU Singapore scientists find new way to disarm antibiotic-resistant bacteria and restore healing in chronic wounds
+      url: https://www.alphagalileo.org/en-gb/Item-Display/ItemId/267774?returnurl=https://www.alphagalileo.org/en-gb/Item-Display/ItemId/267774
+    - outlet: Asia News Network
+      title: Singapore study finds new way to disarm antibiotic-resistant bacteria, hasten healing of chronic wounds
+      url: https://asianews.network/singapore-study-finds-new-way-to-disarm-antibiotic-resistant-bacteria-hasten-healing-of-chronic-wounds/
+    - outlet: Bio Quick News
+      title: NTU Singapore Scientists Find New Way to Disarm Antibiotic-Resistant Bacteria and Restore Healing in Chronic Wounds
+      url: https://bioquicknews.com/ntu-singapore-scientists-find-new-way-to-disarm-antibiotic-resistant-bacteria-and-restore-healing-in-chronic-wounds/#more-21382
+    - outlet: GEN
+      title: Disarming Antibiotic-Resistant Bacteria That Prevent Healing in Chronic Wounds
+      url: https://www.genengnews.com/topics/infectious-diseases/disarming-antibiotic-resistant-bacteria-that-prevent-healing-in-chronic-wounds/
+    - outlet: Malay Mail
+      title: Singapore scientists find way to help diabetic wounds heal faster
+      url: https://www.malaymail.com/news/singapore/2026/01/17/singapore-scientists-find-way-to-help-diabetic-wounds-heal-faster/205749
+    - outlet: Mirage News
+      title: New Weapon Against Bacterium That Blocks Wound Healing
+      url: https://www.miragenews.com/new-weapon-against-bacterium-that-blocks-wound-1603495/
+    - outlet: msn
+      title: Singapore scientists find way to help diabetic wounds heal faster
+      url: https://www.msn.com/en-my/news/other/singapore-scientists-find-way-to-help-diabetic-wounds-heal-faster/ar-AA1UodNc
+    - outlet: News Discovery 3
+      title: Scientists Discover Why Some Wounds Refuse to Heal
+      url: https://www.newsdirectory3.com/scientists-discover-why-some-wounds-refuse-to-heal/#gsc.tab=0
+    - outlet: News Medical
+      title: Study reveals how antibiotic resistant bacteria delay chronic wound healing
+      url: https://www.news-medical.net/news/20260116/Study-reveals-how-antibiotic-resistant-bacteria-delay-chronic-wound-healing.aspx
+    - outlet: mySpace
+      title: A New Weapon Against a Bacterium That Blocks Wound Healing
+      url: https://www.myscience.ch/en/news/2026/a_new_weapon_against_a_bacterium_that_blocks_wound_healing-2026-unige
+    - outlet: Phys Org
+      title: Neutralizing extracellular electron transport disarms antibiotic-resistant bacteria, restores healing in chronic wounds
+      url: https://phys.org/news/2026-01-neutralizing-extracellular-electron-antibiotic-resistant.html
+    - outlet: PortalR7
+      title: Feridas persistentes têm causa invisível que impede a cicatrização
+      url: https://noticias.r7.com/fala-ciencia/feridas-persistentes-tem-causa-invisivel-que-impede-a-cicatrizacao-24012026/
+    - outlet: SCELSE
+      title: SCELSE research reveals non-antibiotic strategy to help diabetic wounds heal
+      url: https://scelse.sg/scelse-research-reveals-non-antibiotic-strategy-to-help-diabetic-wounds-heal/
+    - outlet: ScienceDaily
+      title: Scientists discover why some wounds refuse to heal
+      url: https://www.sciencedaily.com/releases/2026/01/260120015650.htm
+    - outlet: SciTechDaily
+      title: Why Antibiotics Aren’t Enough for Some Chronic Wounds
+      url: https://scitechdaily.com/why-antibiotics-arent-enough-for-some-chronic-wounds/
+    - outlet: SSB Crack News
+      title: Research Team Discovers New Approach to Speed Up Healing of Chronic Wounds Affected by Antibiotic-Resistant Bacteria
+      url: https://news.ssbcrack.com/research-team-discovers-new-approach-to-speed-up-healing-of-chronic-wounds-affected-by-antibiotic-resistant-bacteria/
+    - outlet: Technology Networks
+      title: Bacterial Metabolism Blocks Healing in Chronic Wounds
+      url: https://www.technologynetworks.com/cell-science/news/bacterial-metabolism-blocks-healing-in-chronic-wounds-408754
+    - outlet: the microbiologist
+      title: Scientists find new way to disarm antibiotic-resistant bacteria and restore healing in chronic wounds
+      url: https://www.the-microbiologist.com/news/scientists-find-new-way-to-disarm-antibiotic-resistant-bacteria-and-restore-healing-in-chronic-wounds/7817.article
+    - outlet: University of Geneva Press Release
+      title: A new weapon against a bacterium that blocks wound healing
+      url: https://www.unige.ch/medecine/en/public-outreach/media/new-weapon-against-bacterium-blocks-wound-healing
+    - outlet: Vietnam Plus
+      title: New method discovered to neutralize antibiotic-resistant bacteria
+      url: https://www.vietnam.vn/en/phat-hien-phuong-phap-moi-vo-hieu-hoa-vi-khuan-khang-khang-sinh
+    - outlet: Yahoo
+      title: Singapore scientists find way to help diabetic wounds heal faster
+      url: https://malaysia.news.yahoo.com/singapore-scientists-way-help-diabetic-041742793.html
+- year: '2025'
+  blocks:
+  - html: <b>Journal of Cell Science </b> <span class="sep">·</span> <a href="https://journals.biologists.com/jcs/article/138/18/jcs264358/369223/Interview-with-Guillaume-Thibault-President-of-the">Guillaume Thibault was interviewed</a> for Cell Scientists to Watch <span class="sep">·</span> Interview with Guillaume Thibault – President of the Society for Cell Biology Singapore
+- year: '2023'
+  blocks:
+  - heading: <b>Nature Cell Biology </b> <span class="sep">·</span> <a href="https://www.nature.com/articles/s41556-022-01070-z">Guillaume Thibault was interviewed</a> <span class="sep">·</span> A cell biological perspective on Singapore’s scientific growth (Q&amp;A)
+    items:
+    - outlet: The Straits Times
+      title: 'Guillaume Thibault was interviewed as expert '
+      url: https://www.straitstimes.com/singapore/ntu-team-uncovers-how-cells-distribute-cholesterol-with-implications-for-dementia-heart-disease
+      extra: <span class="sep">·</span> NTU team uncovers how cells distribute cholesterol, with implications for dementia, heart disease
+- year: '2022'
+  blocks:
+  - heading: <b>Local Media Coverage </b>| from our publication in <a href="https://www.nature.com/articles/s41467-022-33630-0">Nature Communications</a>
+    items:
+    - outlet: CNA938 Singapore Today
+      title: Radio live interview with Guillaume Thibault
+      url: https://www.channelnewsasia.com/listen/cna938/singapore-today
+      extra: on 21 Oct 2022
+    - outlet: Lianhe Zaobao
+      title: High sugar in the diet of the elderly can delay cell aging
+      url: /s/Zaobao.pdf
+    - outlet: NTU News
+      title: 'Stress response in cells key to slow down ageing: Study'
+      url: https://www.ntu.edu.sg/news/detail/stress-response-in-cells-key-to-slow-down-ageing-study
+    - outlet: The Straits Times
+      title: Sugar makes roundworms live longer, finding may help slow ageing in humans
+      url: /s/STonline_221024_worms.pdf
+      extra: '[<a href="https://www.thibaultlab.com/s/STonline_221024_worms.pdf">Online version</a>]'
+  - heading: <b>International Media Coverage </b>| from our publication in <a href="https://www.nature.com/articles/s41467-022-33630-0">Nature Communications</a>
+    items:
+    - outlet: Bioengineer
+      title: Manipulating stress response in cells could help slow down ageing, finds NTU Singapore study
+      url: /s/Bioengineers_221019_worms.pdf
+    - outlet: BioSpectrum Asia Edition
+      title: Singapore manipulates stress response in cells to help slow down ageing
+      url: /s/BioSpectrum-Asia_221020_worms.pdf
+    - outlet: BioTrade
+      title: Scientists have discovered that when the stress response in cells is "activated" during post-reproductive age, it may be a key factor in slowing down aging and extending lifespan
+      url: /s/BioTrade_221024_worms.pdf
+    - outlet: Borneo Bulletin
+      title: A step forward in longevity studies
+      url: /s/BorneoBulletin_221026_worms.pdf
+    - outlet: Canaltech
+      title: Scientists discover a new method to slow down cell aging
+      url: /s/Canaltech_221020_worms.pdf
+    - outlet: cnBeta
+      title: Anti-aging research extends the lifespan of worms through feeding them a high-sugar diet
+      url: /s/cnBeta_221020_worms.pdf
+    - outlet: dailyhunt
+      title: Research reveals a method to slow down ageing
+      url: /s/DailyHunt_221019_worms.pdf
+    - outlet: Devdiscourse
+      title: Research reveals a method to slow down ageing
+      url: /s/DevDiscourse_221019_worms.pdf
+    - outlet: enanyang
+      title: 'Study: High-sugar diet in old age slows down cellular aging'
+      url: /s/enanyang_221020_worms.pdf
+    - outlet: Eurekalert
+      title: Manipulating stress response in cells could help slow down ageing, finds NTU Singapore study
+      url: /s/Eurekalert_221019_worms.pdf
+    - outlet: Euronews Next
+      title: An experiment on worms may hold the key to slowing down ageing in humans
+      url: /s/EuroNews_221019_worms.pdf
+    - outlet: Europa press
+      title: Manipulation of stress response in cells could help delay aging, according to a study
+      url: /s/Europa-Press_221021_worms-jkck.pdf
+    - outlet: Forbes Russia
+      title: 'Entangled Chain: will the grave worms show the way to eternal youth?'
+      url: /s/ForbesRussia_221024_worms.pdf
+    - outlet: GEN
+      title: Cellular Stress in Aged Worms Leads to Healthier Aging
+      url: /s/Geneng_221020_Worms.pdf
+    - outlet: Hindustan Times
+      title: 'How stress response in cells can slow down ageing, promote longevity: Study'
+      url: /s/HindustanTimes_221019_worms.pdf
+    - outlet: I³ investor
+      title: Sugar makes roundworms live longer, finding could help to slow ageing in humans
+      url: /s/I3Investor_221024_worms.pdf
+    - outlet: Jago news 24
+      title: Research reveals a method to slow down ageing
+      url: /s/I3Investor_221024_worms-4n7y.pdf
+    - outlet: Latest LY
+      title: Research Reveals a Method to Slow Down Ageing
+      url: /s/Latestly_221019_worms.pdf
+    - outlet: Mirage News
+      title: Manipulating stress response in cells could help slow down aging, reveals NTU Singapore study
+      url: /s/MirageNews_221019_worms.pdf
+    - outlet: Nach Welt
+      title: 'How stress response in cells can slow down aging and promote longevity: Study'
+      url: /s/NachWelt_221020_worms.pdf
+    - outlet: Naked Science
+      title: By changing the cell's response to stress, it is possible to stop aging
+      url: /s/Naked-Science_221020_worms.pdf
+    - outlet: Neuroscience News
+      title: Manipulating Stress Response in Cells Could Help Slow Down Aging
+      url: /s/NeuroscienceNews_221019_worms.pdf
+    - outlet: New Atlas
+      title: Anti-aging study boosts worm lifespans with glucose
+      url: /s/New-Atlas_221019_worms.pdf
+    - outlet: News Azi
+      title: Manipulating Stress Response In Cells Could Help Slow Down Aging
+      url: /s/NewsAzi_221019_worms.pdf
+    - outlet: Phys Org
+      title: Manipulating stress response in cells could help slow down aging
+      url: /s/Phys_org_221019_worms.pdf
+    - outlet: Popmesh
+      title: Sugar helped significantly slow down aging - but here's why you need to be extremely cautious with it
+      url: /s/Popmesh_221026_worms.pdf
+    - outlet: Revyuh
+      title: New Experiment in Worms Slowed Aging, Promoted Longevity
+      url: /s/Revyuh_221019_worms.pdf
+    - outlet: Science Daily
+      title: Manipulating stress response in cells could help slow down aging
+      url: /s/ScienceDaily_221019_worms.pdf
+    - outlet: Scienmag
+      title: Manipulating stress response in cells could help slow down ageing, finds NTU Singapore study
+      url: /s/Scienmag_221019_worms.pdf
+    - outlet: Sohu
+      title: Cell stress response may be the key to delaying aging - Scientists discover the link for the first time
+      url: /s/Sohu_221020_worms.pdf
+    - outlet: Swift Telecast
+      title: Manipulating Stress Response In Cells Could Help Slow Down Aging
+      url: /s/Swifttelecast_221019_worms.pdf
+    - outlet: Tencent
+      title: Cell stress response may be the key to delaying aging - Scientists discover the link for the first time
+      url: /s/Tencent_221025_worms.pdf
+    - outlet: terra
+      title: Scientists discover a new method to slow down cell aging
+      url: /s/Terra_221020_worms.pdf
+    - outlet: The Print
+      title: Study reveals how stress response in cells can slow down ageing, promote longevity
+      url: /s/The-Print_221020_worms.pdf
+    - outlet: The Star
+      title: Sugar makes roundworms live longer, finding could help to slow ageing in humans
+      url: /s/The-STar_221024_worms.pdf
+    - outlet: Verve Times
+      title: Findings From Lab Studies On Roundworms Could Open The Door To Therapies For Age-Related Disorders
+      url: /s/VerveTimes_221019_worms.pdf
+    - outlet: Yahoo
+      title: An experiment on worms may hold the key to slowing down ageing in humans
+      url: /s/Yahoo_221019_worms.pdf
+- year: '2021'
+  blocks:
+  - heading: <b>MBI Press Release</b> <span class="sep">·</span> <a href="/s/MBI-Press-Release-April-2021.pdf">MBI PIs win MOE AcRF Tier 3 grant to study endomembrane aging</a>
+    items:
+    - outlet: Mediacorp Mind Blown!
+      title: Guillaume Thibault was a guest of the episode Beyond 100
+      url: https://www.mewatch.sg/season/Mind-Blown-191518
+- year: '2017'
+  blocks:
+  - heading: <b>The Straits Times</b> <span class="sep">·</span> <a href="/s/Straits-Times-170822.pdf">Guillaume Thibault was interviewed as expert</a> <span class="sep">·</span> How to deal with food allergies
+    items:
+    - outlet: The Straits Times
+      title: Guillaume Thibault was interviewed as expert
+      url: /s/Straits-Times-170714.pdf
+      extra: <span class="sep">·</span> Attackers nailed by DNA left in getaway cab
+- year: '2015'
+  blocks:
+  - html: <b>The New Paper</b> <span class="sep">·</span> <a href="/s/TNP-150402.pdf">Guillaume Thibault was interviewed as expert</a> <span class="sep">·</span> Just a few drops can be lethal
+- year: '2014'
+  blocks:
+  - html: <b>The New Paper</b> <span class="sep">·</span> <a href="/s/TNP2-140821.pdf">Guillaume Thibault was interviewed as expert</a> <span class="sep">·</span> Nitrogen Vapour can be dangerous

@@ -1,0 +1,20 @@
+---
+layout: layouts/base.njk
+title: People
+navkey: people
+permalink: /people/
+description: Meet the members of the Thibault Lab at NTU Singapore.
+---
+<div class="wrap">
+  <div class="pub-head"><h1>Meet the team</h1></div>
+  <div class="team">
+    {% for p in collections.team %}
+    <a class="pcard" href="{{ p.url }}"><img src="{{ p.photo }}" alt="{{ p.name }}" width="400" height="400" loading="lazy"><h3>{{ p.name }}</h3><p>{{ p.role }}</p></a>
+    {% endfor %}
+  </div>
+  <div class="join">
+    <h2>Interested in joining the lab?</h2>
+    <p>We welcome inquiries from motivated students and postdocs who are excited about cellular stress biology, aging, and bioinformatics. Please get in touch with your CV and a brief statement of interest. Learn more <a href="/openings/">here</a>.</p>
+  </div>
+  <p class="alumni-link"><a href="/alumni/">Alumni lab members</a></p>
+</div>

@@ -1,0 +1,179 @@
+# Biography page. Each section is a list of rows. A row has an optional date and text (HTML allowed).
+name: Guillaume THIBAULT, PhD
+role: Principal Investigator
+photo: guillaume-thibault.jpg
+address:
+- Associate Professor
+- School of Biological Sciences
+- Nanyang Technological University
+- 60 Nanyang Drive, SBS-03n-27
+- Singapore 637551
+- Tel +65 6592 1787
+intro:
+- Guillaume Thibault is an Associate Professor (tenured) at the School of Biological Sciences, Nanyang Technological University (NTU), where he also serves as Associate Dean (Graduate Studies) at the College of Science and Senator on the 10th NTU Senate. A biochemist and cell biologist by training, he earned his Ph.D. from the University of Toronto and completed postdoctoral work at Temasek Life Sciences Laboratory before establishing his independent research program at NTU, supported by the Elite Nanyang Assistant Professorship Award.
+- His research investigates the interplay between lipid homeostasis and the unfolded protein response, with translational relevance to aging, metabolic disease, and wound infection. This work has been published in leading journals including Science, Molecular Cell, Nature Communications, Cell Host &amp; Microbe, and eLife, and has attracted over S$8.75M in competitive funding as Lead PI. Beyond NTU, he is the founding President of the Society for Cell Biology Singapore, an Associate Editor for Molecular Biology of the Cell and Cell Biology International, Lead Organizer of the 2025 FASEB Endoplasmic Reticulum conference, and serves on multiple committees of the American Society for Cell Biology.
+links:
+- label: Email
+  url: mailto:thibault@ntu.edu.sg
+- label: Web of Science
+  url: https://www.webofscience.com/wos/author/record/1612928
+- label: Scopus
+  url: https://www.scopus.com/authid/detail.uri?authorId=7103257070
+- label: Google Scholar
+  url: https://scholar.google.com.sg/citations?hl=en&user=yv4Sg6YAAAAJ&view_op=list_works&sortby=pubdate
+- label: ORCID
+  url: https://orcid.org/0000-0002-7926-4812
+- label: LinkedIn
+  url: https://sg.linkedin.com/in/gtibo
+- label: Bluesky
+  url: https://bsky.app/profile/gthibault.bsky.social
+- label: GitHub
+  url: https://github.com/g-tibo
+sections:
+- title: Employment History
+  rows:
+  - date: 2026-curr
+    text: Associate Dean (Graduate Studies), <a href="https://www.ntu.edu.sg/science/about-us/college-management">College of Science</a>, <a href="https://www.ntu.edu.sg/">Nanyang Technological University</a>
+  - date: 2022-curr
+    text: <a href="https://dr.ntu.edu.sg/cris/rp/rp00437?ST_EMAILID=thibault">Associate Professor</a> (tenured), <a href="https://www.ntu.edu.sg/sbs/about-us/our-people">School of Biological Sciences</a>, Nanyang Technological University
+  - date: 2021-curr
+    text: Co-Principal Investigator, <a href="https://www.mbi.nus.edu.sg/faculty/">Mechanobiology Institute</a>, National University of Singapore (MBI), Singapore
+  - date: 2023-2026
+    text: Assistant Dean (International Engagement), College of Science, Nanyang Technological University
+  - date: 2022-2023
+    text: Assistant Chair (Graduate Education), School of Biological Sciences, Nanyang Technological University
+  - date: 2019-2022
+    text: Adjunct Principal Investigator, Institute of Molecular and Cell Biology (IMCB), A*STAR, Singapore
+  - date: 2013-2022
+    text: Assistant Professor, School of Biological Sciences, Nanyang Technological University
+  - date: 2008-2013
+    text: Postdoctoral Research Fellow, Temasek Life Sciences Laboratory, National University of Singapore
+  - date: 2004-2006
+    text: Treasurer (elected position), Graduate Students’ Union (GSU), University of Toronto, Canada
+  - date: 1996-2000
+    text: Research Technician, INRS – Institut Armand-Frappier, Université of Québec, Canada
+- title: Academic Qualifications
+  rows:
+  - date: '2013'
+    text: Postdoctoral Research Fellow, Temasek Life Sciences Laboratory, National University of Singapore
+  - date: '2007'
+    text: Ph.D. in Biochemistry, University of Toronto, Canada
+  - date: '2002'
+    text: B.Sc. in Biochemistry, Université du Québec à Montréal, Canada
+  - date: '1999'
+    text: Diploma in Analytical Chemistry, Collège Ahuntsic, Canada
+- title: Publications
+  rows:
+  - text: <a href="https://scholar.google.com.sg/citations?hl=en&user=yv4Sg6YAAAAJ&view_op=list_works&sortby=pubdate">Google Scholar Profile</a>
+  - text: <a href="https://github.com/g-tibo">GitHub Profile</a>
+  - text: <a href="https://loop.frontiersin.org/people/307140/overview">Loop Profile
+  - text: </a><a href="https://orcid.org/0000-0002-7926-4812">ORCID 0000-0002-7926-4812 Profile</a>
+  - text: <a href="https://www.webofscience.com/wos/author/record/1612928">Publons Profile</a>
+  - text: <a href="https://pubmed.ncbi.nlm.nih.gov/?term=Thibault+Guillaume%5BAuthor%5D&sort=date">PubMed - all publications</a>
+  - text: <a href="https://www.scopus.com/authid/detail.uri?authorId=7103257070">Scopus Profile</a>
+- title: Funding and Awards
+  rows:
+  - subhead: CURRENT
+  - date: 2026-2030
+    text: NMRC OF-IRG July 2025 Grant Call, Linking Bacterial Oxidative Stress and ER Stress in Chronic Wound Pathogenesis, Lead PI.
+  - date: 2024-2027
+    text: MOE AcRF Tier 1 September 2024 Grant Call, Age-related mRNA degradation by endoplasmic reticulum stress sensor IRE1, Lead PI.
+  - date: 2023-2030
+    text: NRF Mid-Size Grant Call 2022, Mechanobiology in development, aging and disease, Team PI.
+  - date: 2021-2026
+    text: MOE AcRF Tier 3 2020, Endomembrane System Dynamics, Architecture, and Functions in Aging Cells and Tissues, Team PI.
+  - subhead: COMPLETED
+  - date: '2024'
+    text: Singapore Open Research Award.
+  - date: 2023-2025
+    text: MOE AcRF Tier 1 September 2022 Grant Call, Exploring the role of the endoplasmic reticulum in epithelial cell differentiation, Lead PI.
+  - date: 2023-2025
+    text: MOE AcRF Tier 1 March 2022 Grant Call, Connect choline deficiency during pregnancy with unfolded protein response and Alzheimer diseases, Co-PI.
+  - date: 2021-2025
+    text: NMRC OF-IRG November 2019 Grant Call, Targeting Host-Pathogen Synergy in Wound Infection, Lead PI.
+  - date: 2020-2022
+    text: MOE AcRF Tier 1 September 2019 Grant Call, Adaptor protein WDFY3 is neuroprotective by counteracting age-mediated decline in proteostasis, Lead PI.
+  - date: 2019-2022
+    text: 3rd NRF-NSFC Grant Call, Identify essential genes to construct a functional unfolded protein response programme using synthetic biology, Lead PI.
+  - date: 2019-2021
+    text: NTU EdeX Grant, Improving student learning using open-ended question assessment with machine learning-driven immediate feedback, Lead PI.
+  - date: 2018-2021
+    text: MOE AcRF Tier 2 February 2018 Grant Call, Characterising the anti-aging role of the UPR from high glucose diet, Lead PI.
+  - date: 2016-2018
+    text: MOE, AcRF Tier 1 Grant, Elucidating Exosomes Biogenesis and Uptake in Cancer Progression, Lead PI.
+  - date: 2016-2018
+    text: MOE AcRF Tier 1 Grant, Catalytic Synthesis and Metabolism of Site-Specific Deuterated Essential Fatty Acids, Lead PI.
+  - date: 2015-2016
+    text: 'MOE AcRF Tier 1 Grant, From Dietary Excess to Neurodegeneration: Finding the Missing Links in Vesicular Autophagy Transport, Degradation, and Stress, Lead PI.'
+  - date: 2013-2016
+    text: The Elite Nanyang Assistant Professorship Award 2013, Nanyang Technological University.
+  - date: 2009-2011
+    text: Singapore Millennium Foundation Post-Doctoral Award (competitive fellowship).
+  - date: 2006-2007
+    text: Fonds de Recherche sur la Nature et les Technologies du Québec Graduate Scholarship.
+  - date: '2006'
+    text: David A. Scott Award, Department of Biochemistry – University of Toronto (DB-UofT). Best all-round Graduate Student.
+  - date: 2004-2006
+    text: Natural Sciences and Engineering Research Council of Canada (NSERC) Postgraduate Scholarship (PGS D), Doctoral research.
+  - date: '2004'
+    text: Bradley Pett Graduate Award for academic excellence, DB-UofT.
+  - date: '2004'
+    text: Beckman Coulter Award for best first-author publication, DB-UofT.
+  - date: '2003'
+    text: 3rd place poster award (M.Sc. category), DB-UofT.
+  - date: 2002-2004
+    text: NSERC Postgraduate Scholarship (PGS A), Master research.
+  - date: '2002'
+    text: NSERC Undergraduate Student Research Award, UofT.
+  - date: '2002'
+    text: Boehringer Ingelheim Award in biochemistry for academic excellence, UQAM Foundation.
+- title: Teaching
+  rows:
+  - text: <a href="http://labs.sbs.ntu.edu.sg/obtl/obtl.aspx?sch=sbs&p=BS3022">BS3022 Protein Trafficking</a> • <b>Course Instructor</b>
+  - text: <a href="http://labs.sbs.ntu.edu.sg/obtl/obtl.aspx?sch=sbs&p=BS3340">BS3340 Science of aging and life extension in <i>C. elegans </i></a>• <b>Course Coordinator</b>
+- title: Service and Committees
+  rows:
+  - date: 2025-2026
+    text: <b>Senator</b>, 10th Senate, Nanyang Technological University.
+  - date: '2025'
+    text: <b>Lead-Organizer</b>, <a href="https://events.faseb.org/event/c61ad1fe-6d7f-4261-a025-0009942307a1/home">FASEB meeting 2025, Endoplasmic Reticulum</a>, Melbourne, Florida.
+  - date: 2025-curr
+    text: <b>President</b>, <a href="https://www.scbs.sg/">Society for Cell Biology Singapore (SCBS)</a>.
+  - date: 2024-curr
+    text: <b>Member</b>, American Society for Cell Biology (ASCB) Nomination Committee.
+  - date: 2024-curr
+    text: <b>Member</b>, ASCB Publication Committee.
+  - date: 2024-curr
+    text: <b>Associate Editor</b>, <a href="https://onlinelibrary.wiley.com/page/journal/10958355/homepage/editorialboard.html">Cell Biology International</a>.
+  - date: 2023-curr
+    text: <b>Associate Editor</b>, <a href="https://www.molbiolcell.org/">Molecular Biology of the Cell</a> (MBoC).
+  - date: 2023-curr
+    text: <b>Vice-President</b>, <a href="https://www.scbs.sg/">SCBS</a>.
+  - date: '2023'
+    text: '<b>Co-Organizer</b>, FASEB meeting 2023, The Endoplasmic Reticulum (ER) Conference: Structure, Function, and Disease, Melbourne, FL, USA.'
+  - date: 2023-curr
+    text: <b>Member</b>, ASCB International Affairs Committee.
+  - date: '2022'
+    text: <b>Associate Member</b>, ASCB International Affairs Committee.
+  - date: 2022-2023
+    text: <b>Founding President</b>, <a href="https://www.scbs.sg/">SCBS</a>.
+  - date: '2022'
+    text: <b>Minisymposia Co-Chair</b>, ASCB│EMBO Cell Bio 2022, Cells in Distress and Disease – Endomembrane trafficking in health and diseases, Washington DC, USA.
+  - date: 2020-curr
+    text: <b>Chair</b>, SBS Outreach Committee.
+  - date: 2019-curr
+    text: <b>Coordinator</b>, Graduate Student Seminar Series, School of Biological Sciences, NTU.
+  - date: 2017-curr
+    text: <b>International Scientific Program Committee Member</b>, Asia-Pacific Worm Meeting, Seoul, South Korea (2018); Taipei, Taiwan (2020 cancelled due to COVID-19; postponed to 2022).
+  - date: '2021'
+    text: '<b>International Meeting Session Organizer</b>and Chair, ASCB│EMBO 2021 Meeting, subgroup session The Interplay Between Lipids and Proteins in the Endoplasmic Reticulum (ER): How the ER is the Master Regulator of the Cell Universe, Virtual (2021).'
+  - date: '2019'
+    text: <b>International Meeting Session Organizer</b>and Chair, ASCB│EMBO 2019 Meeting, subgroup session <a href="https://www.ascb.org/2019ascbembo/subgroupdescriptions/"><i>Lipids and Proteins in the Secretory Pathway - Homeostasis and Stress</i></a>, Washington, DC, USA.
+  - date: 2018-2019
+    text: '<b>Editor</b>for the Research Topic "Connections to Membrane Trafficking Where you Least Expect Them: Diseases, Dynamics, Diet and Distance" in Frontiers in Cell and Developmental Biology and Frontiers in Physiology'
+  - date: '2017'
+    text: <b>International Meeting Session Organizer</b>and Chair, ASCB│EMBO 2017 Meeting, subgroup session <i>The Intersection of Lipids and Proteins in the Secretory Pathway</i>, Philadelphia, PA, USA.
+  - date: '2015'
+    text: <b>International Meeting Session Organizer</b>and Chair, ASCB Annual Meeting 2015, subgroup session <i>Dynamic Interplay between Lipids, Curvatures, and Diseases of Biological Membranes</i>, San Diego, CA, USA.
+  - date: 2010-2013
+    text: <b>F1000 Associate Faculty Member</b>. Regularly contributing evaluation of papers published in biological sciences to the Faculty of 1000 Biology.

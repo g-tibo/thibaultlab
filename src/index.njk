@@ -1,0 +1,46 @@
+---
+layout: layouts/base.njk
+title: Thibault Lab
+navkey: home
+scripts:
+  - /assets/js/vendor/d3-delaunay.min.js
+  - /assets/js/hero.js
+---
+<section>
+  <div class="hero" id="hero">
+    <canvas id="er" aria-hidden="true"></canvas>
+    <div class="hero-in">
+      <h1>Lipid regulation and cell stress</h1>
+      <p class="sub">Advancing insights into aging and metabolic diseases</p>
+      <div class="hero-cta"><a class="cta" href="/publications/">See our publications</a><a class="alt" href="/research/">Our research</a></div>
+    </div>
+  </div>
+  <div class="wrap">
+    <div class="intro">
+      <h2>We study how cells respond to stress and how these responses shape health, aging, and disease.</h2>
+      <div>
+        <p>At the Thibault Lab, based at <a href="https://www.ntu.edu.sg/sbs">Nanyang Technological University (NTU)</a> and affiliated with the <a href="https://www.mbi.nus.edu.sg/">Mechanobiology Institute (MBI)</a>, we focus on the endoplasmic reticulum (ER), a central organelle in protein folding and lipid regulation. When disrupted, ER stress contributes to numerous conditions, from metabolic disorders and neurodegeneration to infection and tissue damage.</p>
+        <p>We explore how the ER senses different forms of stress, especially lipid bilayer stress, and how the unfolded protein response (UPR) determines whether cells adapt or undergo programmed death.</p>
+      </div>
+    </div>
+    <div class="themes">
+      <div><h3>Aging</h3><p>How stress pathways shift as organisms age.</p></div>
+      <div><h3>Chronic wounds</h3><p>How infection and ER stress interact in tissue that fails to heal.</p></div>
+      <div><h3>Retinal disease</h3><p>How the same pathways change in the retina.</p></div>
+      <div><h3>Bioinformatics and AI</h3><p>Tools that decode gene networks from multi-species datasets.</p></div>
+    </div>
+    <p class="models">We work with <b>mammalian cells</b> and <b>mouse models</b>, combined with genomics, imaging, and computational biology.</p>
+    {% set hl = publications | firstHighlight %}
+    {% if hl %}
+    <div class="latest">
+      {% if hl.cover %}<img class="cov-img" src="/assets/covers/{{ hl.cover }}" width="104" alt="">{% endif %}
+      <div>
+        <h2>Latest highlight</h2>
+        <p class="jr"><b>{{ hl.journal }}</b> {{ hl.date }}</p>
+        <p style="margin:0 0 14px">{{ hl.title | safe }}</p>
+        <a class="big" href="https://doi.org/{{ hl.doi }}">Read the paper</a> &nbsp; <a href="/publications/">All publications</a>
+      </div>
+    </div>
+    {% endif %}
+  </div>
+</section>

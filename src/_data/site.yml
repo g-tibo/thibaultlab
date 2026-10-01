@@ -1,0 +1,23 @@
+title: Thibault Lab
+tagline: Lipid regulation and cell stress
+description: The Thibault Lab at Nanyang Technological University studies how cells respond to stress. We work on ER stress, the unfolded protein response, lipid bilayer stress, aging and wound healing.
+url: https://www.thibaultlab.com
+# Create a free account at goatcounter.com and put your site code here (for example thibaultlab).
+# Leave it empty to switch tracking off.
+goatcounter: ""
+email: thibault@ntu.edu.sg
+address: "60 Nanyang Drive, SBS-03n-26"
+city: "Singapore 637551"
+linkedin: https://sg.linkedin.com/in/gtibo
+youtube: https://www.youtube.com/channel/UC4fd_ZPB7gf_IMoEL2doKtA
+bluesky: https://bsky.app/profile/gthibault.bsky.social
+campus_map: "https://maps.ntu.edu.sg/?mazemap_share_url=https%3A%2F%2Fuse.mazemap.com%2F%3Futm_medium%3Dlongurl%23v%3D1%26config%3Dntu-sg%26zlevel%3D3%26center%3D103.679636%2C1.344841%26zoom%3D20.1%26campusid%3D2123%26sharepoitype%3Dpoi%26sharepoi%3D1003298753"
+nav:
+  - { label: Home, url: / }
+  - { label: Research, url: /research/ }
+  - { label: Publications, url: /publications/ }
+  - { label: People, url: /people/ }
+  - { label: Biography, url: /biography/ }
+  - { label: News, url: /news/ }
+  - { label: Openings, url: /openings/ }
+  - { label: Contact, url: /contact/ }

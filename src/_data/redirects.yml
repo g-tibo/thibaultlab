@@ -1,0 +1,9 @@
+# Old addresses that should forward to a current page.
+- from: /people/hatice-holuigue/
+  to: /alumni/
+- from: /people/saeed-alzahrani/
+  to: /alumni/
+- from: /publication/
+  to: /publications/
+- from: /alumni-lab-members/
+  to: /alumni/

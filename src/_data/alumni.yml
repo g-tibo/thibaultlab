@@ -1,0 +1,351 @@
+# Alumni. Add new entries at the top of each list.
+staff:
+- name: Thanh Son NGUYEN
+  details:
+  - Research Assistant
+  - August 2025 • August 2026
+- name: Hatice HOLUIGUE, PhD
+  details:
+  - Research Fellow
+  - December 2024 • July 2026
+- name: Saeed ALZAHRANI, PhD
+  details:
+  - PhD Student • Successfully defended his PhD thesis in May 2026
+  - January 2021 • January 2026
+  - <b>Thesis </b>• <a href="https://dr.ntu.edu.sg/entities/publication/3427bbb6-ffec-465f-bcee-0351a28ef6bf">Functional impairment of <i>XBP1s</i> and RIDD overactivation synergize to weaken ER stress recovery in senescent RPE cells</a>
+- name: Anastasiia FADIEIEVA, PhD
+  details:
+  - Senior Research Fellow
+  - July 2021 • June 2025
+- name: Sabrina PETER, MSc
+  details:
+  - Research Scientist
+  - September 2023 • March 2025
+- name: Christopher NAH
+  details:
+  - Research Assistant
+  - May 2023 • February 2025
+- name: Stella Yue Ting LEE, BSc
+  details:
+  - Project Officer / PhD Student
+  - October 2020 • January 2024
+- name: Aishah Abdul KHALID, BSc
+  details:
+  - Research Assistant
+  - March 2021 • February 2024
+- name: Ana Sze Qi HO, BSc
+  details:
+  - Research Assistant
+  - February 2023 •  January 2024
+- name: Cenk CELIK, PhD
+  details:
+  - Research Fellow
+  - March 2021 •  May 2023
+- name: Raphael BECQUART, MSc
+  details:
+  - Visiting Scholar
+  - August 2022 • January 2023
+- name: Syed AHMAD-ALBUKHARI, BSc
+  details:
+  - Research Assistant
+  - May 2021 • October 2022
+- name: Wei Sheng YAP, BSc
+  details:
+  - Research Assistant
+  - May 2019 • July 2022
+- name: Kim Mei LOH, MSc
+  details:
+  - Research Associate
+  - April 2021 • April 2022
+- name: Jhee Hong KOH, PhD
+  details:
+  - PhD Student • Successfully defended his PhD thesis in Sep. 2021
+  - August 2016 • April 2021
+  - (Undergraduate attachments) May 2014 • June 2016
+  - <b>Thesis </b>• <a href="https://hdl.handle.net/10356/68164">Dissecting the role of the unfolded protein response during lipid perturbation in <i>C. elegans</i></a>
+- name: Caroline BEAUDOIN-CHABOT, MSc
+  details:
+  - Research Associate
+  - October 2013 • July 2021
+- name: Norrapat SHIH, PhD
+  details:
+  - Research Fellow
+  - September 2020 • April 2021
+- name: Shiyi XU, BSc
+  details:
+  - Research Assistant
+  - March 2020 • April 2021
+- name: Anna Chia Yin CHEW, BSc
+  details:
+  - Project Officer
+  - February 2020 • October 2020
+- name: Xiu Hui FUN, PhD
+  details:
+  - PhD Student • Successfully defended her PhD thesis in April 2020
+  - January 2016 • April 2020
+  - (Final Year Project / Project Officer) January 2015 • December 2015
+  - <b>Thesis </b>• <a href="https://hdl.handle.net/10356/139649">Adaptor protein WDFY3 is neuroprotective by counteracting age-dependent decline in proteostasis</a>
+- name: Nurulain HO, PhD
+  details:
+  - PhD Student • Successfully defended her PhD thesis in March 2020
+  - August 2015 • March 2020
+  - <b>Thesis </b>• <a href="https://hdl.handle.net/10356/137434">An intact IRE1 transmembrane domain is necessary for UPR activation upon lipid bilayer stress in <i>S. cerevisiae</i></a>
+- name: Subhash THALAPPILLY, PhD
+  details:
+  - Postdoctoral Fellow
+  - February 2019  • February 2020
+- name: Zulaiha BEEVI, BSc
+  details:
+  - PhD Student
+  - January 2019 • January 2020
+  - (Final Year Project / Research Experience) May 2016 • May 2017
+- name: Peter Jr. SHYU, PhD
+  details:
+  - PhD Student • Successfully defended his PhD thesis in January 2019
+  - August 2014 • January 2019
+  - <b>Thesis </b>• <a href="https://hdl.handle.net/10356/88536">Yeast FIT2 homologs mediate the crosstalk between stress response pathways and cellular proteostasis</a>
+- name: Eric Lei WANG, PhD
+  details:
+  - Postdoctoral Fellow
+  - April 2015 • August 2018
+- name: Megha UPADYA, MSc
+  details:
+  - Research Associate
+  - August 2016 • July 2018
+- name: Benjamin Si Han NG, PhD
+  details:
+  - PhD Student • Successfully defended his PhD thesis in April 2018
+  - August 2013 • April 2018
+  - <b>Thesis </b>• <a href="https://hdl.handle.net/10356/74173">Lipid perturbation compromises UPR-mediated ER homeostasis</a>
+- name: Betsi KÖSE, MSc
+  details:
+  - Visiting Scholar
+  - August 2016 • July 2017
+- name: Alisha CHAKRABARTI, PhD
+  details:
+  - Project Officer
+  - August 2014 • August 2015
+- name: Bhawana GEORGE, PhD
+  details:
+  - Postdoctoral Fellow
+  - April 2014 • March 2015
+undergraduate:
+- name: Khoi Le MINH
+  details:
+  - NTU Global Connect Fellowship
+  - July 2026 • August 2026
+- name: Mei Hui WONG
+  details:
+  - BMC Student, Final Year Project
+  - June 2026 • August 2026
+- name: Yi Zhen LOH
+  details:
+  - BMC Student, Final Year Project
+  - June 2026 • August 2026
+- name: Derrin BRIGHT
+  details:
+  - Intern, Vellore Institute of Technology
+  - January 2026 • July2026
+- name: Anna van GRUNSVEN
+  details:
+  - NTU Global Connect Fellowship
+  - February 2026 • March 2026
+- name: Soo Xing YEE
+  details:
+  - BMC Student, Final Year Project
+  - June 2025 • August 2025
+- name: Xinyi LIU
+  details:
+  - MSc Student - Practicum
+  - January 2025 • May 2025
+- name: Cathy Xi GAI
+  details:
+  - Undergraduate NTU Global Connect Fellowship
+  - May 2024 • August 2024
+- name: Aaliya AHAMED
+  details:
+  - Undergraduate NTU-India Connect Research Internships Programme
+  - January 2024 • May 2024
+- name: Neville NG
+  details:
+  - Undergraduate Student, Internship
+  - May 2023 • August 2023
+- name: Wilford Kenny KOH
+  details:
+  - Undergraduate Student, Research Experience
+  - May 2023 • June 2023
+- name: Thanh Son NGUYEN
+  details:
+  - Undergraduate Student, Final Year Project
+  - January 2023 • May 2023
+- name: Wen Hui ANG
+  details:
+  - Undergraduate Student, Final Year Project
+  - July 2022 • December 2022
+- name: Jia Soon LEN
+  details:
+  - Undergraduate Student, attachment
+  - March 2022 • August 2022
+- name: Farrah DEWANTI
+  details:
+  - Undergraduate Student, URECA
+  - August 2021 • June 2022
+- name: Nico Arsenio LIMAN
+  details:
+  - Undergraduate Student, URECA
+  - August 2021 • June 2022
+- name: Christie Pei Ning TAN
+  details:
+  - Undergraduate Student, URECA
+  - August 2021 • June 2022
+- name: Vivian Yu En TAY
+  details:
+  - Undergraduate Student, URECA
+  - August 2021 • June 2022
+- name: Emile Wei Yeow CHIU
+  details:
+  - Undergraduate Student, Research Experience and Final Year Project
+  - May 2021 • May 2022
+- name: Guoxiang CHEAM
+  details:
+  - Undergraduate Student, Final Year Project
+  - January 2022 • May 2022
+- name: Audrey Anne SIBERT
+  details:
+  - Undergraduate student, Research Experience
+  - May 2021 • July 2021
+- name: Jian Hua TAY
+  details:
+  - Undergraduate student, URECA
+  - August 2020 • June 2021
+- name: Ann Don LOW
+  details:
+  - Undergraduate student, URECA
+  - August 2020 • June 2021
+- name: Adam Xin Hong LEE
+  details:
+  - Undergraduate student, URECA
+  - August 2020 • June 2021
+- name: Joel Xu En WONG
+  details:
+  - Undergraduate student, Internship
+  - May 2020 • November 2020
+- name: Amelia Yu Xuan NG
+  details:
+  - Undergraduate student, URECA
+  - August 2019  • June 2020
+- name: Zhan Hong YAP
+  details:
+  - Undergraduate student, URECA
+  - August 2019  • June 2020
+- name: Komali ALLAM
+  details:
+  - Undergraduate NTU-India Connect Research Internships Programme
+  - January 2020 • May 2020
+- name: Cherie Ching Li TEOW
+  details:
+  - Undergraduate student, Final Year Project
+  - January 2020 • May 2020
+- name: Zhi Peng KERK
+  details:
+  - Undergraduate student, Final Year Project
+  - January 2020 • May 2020
+- name: Bala NIHARIKA
+  details:
+  - Undergraduate NTU-India Connect Research Internships Programme
+  - August 2019 • December 2019
+- name: Chong Shu CHEN
+  details:
+  - Undergraduate student, Research Experience
+  - May 2019 • July 2019
+- name: Bernice Phuy Neng CHIA
+  details:
+  - Undergraduate student, Research Experience
+  - May 2019 • July 2019
+- name: Ee Thern CHIA
+  details:
+  - Undergraduate student, URECA/Research Experience
+  - September 2018 • July 2019
+- name: Jen Sheng CHIM
+  details:
+  - Undergraduate student, Research Experience
+  - May 2019 • July 2019
+- name: Yuen Theng CHU
+  details:
+  - Undergraduate student, Research Experience
+  - May 2019 • July 2019
+- name: May Chie LOO
+  details:
+  - Undergraduate student, URECA/Research Experience
+  - September 2018 • July 2019
+- name: Venus Wen Xuan LIM
+  details:
+  - Undergraduate student, Final Year Project
+  - January 2019 • May 2019
+- name: Wei Jing CHONG
+  details:
+  - Undergraduate student, CN Yang Scholars Programme
+  - January 2019 • April 2019
+- name: Charlie MARVALIM
+  details:
+  - Undergraduate student (URECA, Research Experience)
+  - September 2017 • August 2018
+- name: Yee Lin ANG
+  details:
+  - Undergraduate student (URECA - NTU)
+  - September 2017 • June 2018
+- name: Roland Zheng Cong GOH
+  details:
+  - Undergraduate student (URECA - NTU)
+  - September 2017 • June 2018
+- name: Xin Qie ONE
+  details:
+  - NRP Enrichment Project - Junior College June 2016 • April 2017
+- name: Gerald GIEN
+  details:
+  - Undergraduate student (URECA - NTU)
+  - September 2016 • June 2017
+- name: Denyse CHANG
+  details:
+  - Undergraduate student (CN Yang Scholars Programme)
+  - September 2016 • April 2017
+- name: Yi Rong CHEW
+  details:
+  - Medical Student (LKCM Scholarly Project)
+  - August 2016 • September 2016
+- name: Jonger CHUA
+  details:
+  - Undergraduate Student (Research Experience)
+  - May 2016 • July 2016
+- name: Rui Jie CHAW
+  details:
+  - Undergraduate Student (URECA / Final Year Project)
+  - September 2014 • May 2016
+- name: Yu Jia LIM
+  details:
+  - Undergraduate Student (Final Year Project)
+  - May 2015 • July 2015
+- name: Hafsa Afandi LEE
+  details:
+  - Undergraduate Student (Research Experience)
+  - May 2015 • June 2015
+- name: Yi Ling SEAH
+  details:
+  - Undergraduate Student (URECA)
+  - September 2014 • June 2015
+- name: Priyanka AGGARWAL, MSc
+  details:
+  - Visiting Scholar
+  - August 2014 • February 2015
+- name: Yi Ling LUM
+  details:
+  - Undergraduate Student (Research Experience)
+  - May 2014 • July 2014
+- name: Haoxi WU, PhD
+  details:
+  - Undergraduate Student (Exchange from Sichuan University)
+  - October 2013 • May 2014
+- name: Matthew YEE
+  details:
+  - Undergraduate Student (Final Year Project)
+  - January 2014 • May 2014

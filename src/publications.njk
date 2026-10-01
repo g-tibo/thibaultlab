@@ -1,0 +1,55 @@
+---
+layout: layouts/base.njk
+title: Publications
+navkey: publications
+permalink: /publications/
+description: Publications from the Thibault Lab on ER stress, the unfolded protein response, lipid bilayer stress, aging and wound healing.
+scripts:
+  - /assets/js/pubs.js
+  - /assets/js/altmetric.js
+---
+{% set groups = publications | groupByYear %}
+<div class="wrap">
+  <div class="pub-head">
+    <h1>Publications</h1>
+    <p class="legend">* co-first authors. <b>Bold</b> marks Thibault lab members. ✉ marks the corresponding author. Full list on <a href="https://pubmed.ncbi.nlm.nih.gov/?term=((Thibault%20Guillaume%5BAuthor%5D)%20AND%20(Toronto%20OR%20Singapore%5BAffiliation%5D))&sort=date">PubMed</a> and <a href="https://orcid.org/0000-0002-7926-4812">ORCID</a>.</p>
+    <div class="tools">
+      <input class="search" id="q" type="search" placeholder="Search title, author, or journal" aria-label="Search publications">
+      <div class="chips" id="chips" role="group" aria-label="Filter by year">
+        <button class="chip" type="button" data-y="all" aria-pressed="true">All years</button>
+        {% for g in groups %}<button class="chip" type="button" data-y="{{ g.year }}" aria-pressed="false">{{ g.year }}</button>{% endfor %}
+      </div>
+    </div>
+  </div>
+  <div id="list">
+  {% for g in groups %}
+  <section class="ygroup" data-year="{{ g.year }}">
+    <div class="year"><h2>{{ g.year }}</h2><span class="ycount">{{ g.items.length }} {{ g.items.length | pluralize("paper","papers") }}</span></div>
+    {% for p in g.items %}
+    <article class="paper" id="{{ p.doi | slugify }}" data-search="{{ (p.authors ~ ' ' ~ p.title ~ ' ' ~ p.journal ~ ' ' ~ p.date ~ ' ' ~ p.doi) | plain | lower | escape }}">
+      {% if p.cover %}<img class="cov-img" src="/assets/covers/{{ p.cover }}" width="104" alt="" loading="lazy">{% else %}<div class="cov" style="--h:170" aria-hidden="true"><span>{{ p.journal }}</span><small>{{ p.year }}</small></div>{% endif %}
+      <div>
+        {% if p.authors %}<p class="au">{{ p.authors | safe }}</p>{% endif %}
+        <h3>{{ p.title | safe }}</h3>
+        <p class="meta"><b>{{ p.journal }}</b> {{ p.date }}. doi {{ p.doi }}</p>
+        {% if p.links.length %}<div class="links">{% for l in p.links %}<a href="{{ l.url }}">{{ l.label }}</a>{% endfor %}</div>{% endif %}
+        {% for n in p.notes %}<p class="note">{% if n.url %}<a href="{{ n.url }}">{{ n.text }}</a>{% else %}{{ n.text }}{% endif %}</p>{% endfor %}
+        {% if p.podcasts %}<div class="pod">{% for x in p.podcasts %}<button type="button" data-audio="{{ ('/assets/audio/' ~ x.file) | url }}" aria-expanded="false">{{ x.label }}</button>{% endfor %}</div>{% endif %}
+        {% if p.press %}
+        {% set n = p.press.official.length + p.press.local.length + p.press.international.length %}
+        <details class="press"><summary>Press coverage ({{ n }})</summary><div>
+          {% if p.press.official.length %}<p><b>Institutional</b> {% for o in p.press.official %}<a href="{{ o.url }}">{{ o.outlet }}</a>{% if not loop.last %}, {% endif %}{% endfor %}</p>{% endif %}
+          {% if p.press.local.length %}<p><b>Local media</b> {% for o in p.press.local %}<a href="{{ o.url }}">{{ o.outlet }}</a>{% if not loop.last %}, {% endif %}{% endfor %}</p>{% endif %}
+          {% if p.press.international.length %}<p><b>International media</b> {% for o in p.press.international %}<a href="{{ o.url }}">{{ o.outlet }}</a>{% if not loop.last %}, {% endif %}{% endfor %}</p>{% endif %}
+        </div></details>
+        {% endif %}
+      </div>
+      <span class="altb" data-altmetric-doi="{{ p.doi }}" hidden></span>
+    </article>
+    {% endfor %}
+  </section>
+  {% endfor %}
+  </div>
+  <div class="empty" id="nomatch" hidden>No papers match. <button type="button" id="clr">Clear the search</button></div>
+  <div style="height:88px"></div>
+</div>

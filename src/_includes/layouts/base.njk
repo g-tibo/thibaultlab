@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>{% if (title or name) and (title or name) != site.title %}{{ title or name }} | {% endif %}{{ site.title }}</title>
+<meta name="description" content="{{ description or site.description }}">
+<link rel="canonical" href="{{ site.url }}{{ page.url }}">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="{{ site.title }}">
+<meta property="og:title" content="{{ title or name or site.title }}">
+<meta property="og:description" content="{{ description or site.description }}">
+<meta name="theme-color" content="#EEF1EC">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%A7%AC%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/assets/css/site.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="top">
+  <div class="top-in">
+    <a class="brand" href="/">Thibault Lab</a>
+    <button class="menu-btn" id="menuBtn" aria-expanded="false" aria-controls="nav" type="button">Menu</button>
+    <nav class="nav" id="nav" aria-label="Main">
+      {% for item in site.nav %}<a href="{{ item.url }}"{% if navkey == item.label | lower %} aria-current="page"{% endif %}>{{ item.label }}</a>
+      {% endfor %}
+    </nav>
+  </div>
+</header>
+<main id="main">
+{{ content | safe }}
+</main>
+<footer>
+  <div class="wrap">
+    <div>
+      <h2>Thibault Lab</h2>
+      <p>{{ site.address }}<br>{{ site.city }}<br><a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
+    </div>
+    <div>
+      <p><a href="{{ site.linkedin }}">LinkedIn</a><br><a href="{{ site.youtube }}">YouTube</a><br><a href="{{ site.bluesky }}">Bluesky</a></p>
+      <p style="margin-top:14px">© 2013-{{ "" | currentYear }} Thibault Lab</p>
+    </div>
+  </div>
+</footer>
+<script src="/assets/js/site.js" defer></script>
+{% for s in scripts %}<script src="{{ s }}" defer></script>
+{% endfor %}
+{% if site.goatcounter %}<script data-goatcounter="https://{{ site.goatcounter }}.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>{% endif %}
+</body>
+</html>

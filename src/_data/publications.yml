@@ -1,0 +1,780 @@
+# One entry per paper, newest first.
+# Bold lab members with <b>...</b>. Mark co-first authors with * and corresponding authors with ✉.
+# Titles may contain <i>...</i>. Cover images live in src/assets/covers/.
+- doi: 10.1016/j.chom.2026.01.002
+  year: 2026
+  date: 2026 January 27
+  journal: Cell Host & Microbe
+  title: <i>Enterococcus faecalis</i>-derived lactic acid suppresses macrophage activation to facilitate persistent and polymicrobial wound infections
+  authors: Ronni A.G. da Silva, Brenda Yin Qi Tien, Patrick Hsien Neng Kao, Haris Antypas, <b>Cenk Celik</b>, Ai Zhu Casandra Tan, Muhammad Hafiz Ismail, Guangan Hu, Kelvin Kian Long Chong, <b>Guillaume Thibault</b>, Jianzhu Chen, Kimberly A. Kline ✉
+  cover: 10-1016-j-chom-2026-01-002.jpg
+  links:
+  - label: Abstract
+    url: https://pubmed.ncbi.nlm.nih.gov/41605216/
+  - label: Full Text
+    url: https://www.cell.com/cell-host-microbe/fulltext/S1931-3128(26)00002-8
+  - label: PDF
+    url: https://www.cell.com/cell-host-microbe/pdf/S1931-3128(26)00002-8.pdf
+- doi: 10.1126/sciadv.aeb5297
+  year: 2026
+  date: 2026 January 16
+  journal: Science Advances
+  title: <i>Enterococcus faecalis</i> redox metabolism activates the unfolded protein response to impair wound healing
+  authors: <b>Aaron Ming Zhi Tan</b>, <b>Cenk Celik</b>, <b>Stella Yue Ting Lee</b>, Mark Veleba, Caroline S. Manzano, <b>Rahim MK Abdul</b>, <b>Guillaume Thibault ✉</b>, Kimberly A. Kline ✉
+  cover: 10-1126-sciadv-aeb5297.jpg
+  highlight: true
+  links:
+  - label: Abstract
+    url: https://pubmed.ncbi.nlm.nih.gov/41544166/
+  - label: Full Text
+    url: https://doi.org/10.1126/sciadv.aeb5297
+  - label: PDF
+    url: https://www.science.org/doi/reader/10.1126/sciadv.aeb5297
+  - label: Raw Data
+    url: https://doi.org/10.21979/N9/SESMQG
+  podcasts:
+  - label: Podcast Quick Take
+    file: How_Bacteria_Chemically_Freeze_Wound_Healing.m4a
+  - label: Podcast Deep Dive
+    file: How_bacterial_metabolism_paralyzes_wound_healing.m4a
+  press:
+    official:
+    - outlet: NTU News
+      url: https://www.ntu.edu.sg/news/detail/new-way-to-disarm-antibiotic-resistant-bacteria-and-restore-healing-in-chronic-wounds
+    - outlet: University of Geneva press release
+      url: https://www.unige.ch/medecine/en/public-outreach/media/new-weapon-against-bacterium-blocks-wound-healing
+    - outlet: SCELSE News
+      url: https://scelse.sg/scelse-research-reveals-non-antibiotic-strategy-to-help-diabetic-wounds-heal/
+    local:
+    - outlet: Straits Times
+      url: https://www.straitstimes.com/singapore/health/spore-study-finds-new-way-to-disarm-antibiotic-resistant-bacteria-speed-up-healing-of-chronic-wounds
+    - outlet: Tamil Murasu
+      url: https://www.tamilmurasu.com.sg/singapore/nanyang-technological-university-study-healing-chronic-wounds
+    - outlet: zaobao
+      url: https://www.zaobao.com.sg/news/singapore/story20260117-8115815
+    international:
+    - outlet: Bio Quick News
+      url: https://bioquicknews.com/ntu-singapore-scientists-find-new-way-to-disarm-antibiotic-resistant-bacteria-and-restore-healing-in-chronic-wounds/#more-21382
+    - outlet: GEN
+      url: https://www.genengnews.com/topics/infectious-diseases/disarming-antibiotic-resistant-bacteria-that-prevent-healing-in-chronic-wounds/
+    - outlet: Malay Mail
+      url: https://www.malaymail.com/news/singapore/2026/01/17/singapore-scientists-find-way-to-help-diabetic-wounds-heal-faster/205749
+    - outlet: Mirage News
+      url: https://www.miragenews.com/new-weapon-against-bacterium-that-blocks-wound-1603495/
+    - outlet: myScience
+      url: https://www.myscience.org/en/news/2026/a_new_weapon_against_a_bacterium_that_blocks_wound_healing-2026-unige
+    - outlet: Portal R7
+      url: https://noticias.r7.com/fala-ciencia/feridas-persistentes-tem-causa-invisivel-que-impede-a-cicatrizacao-24012026/
+    - outlet: SciTechDaily
+      url: https://scitechdaily.com/why-antibiotics-arent-enough-for-some-chronic-wounds/
+    - outlet: the microbiologist
+      url: https://www.the-microbiologist.com/news/scientists-find-new-way-to-disarm-antibiotic-resistant-bacteria-and-restore-healing-in-chronic-wounds/7817.article
+    - outlet: Vietnam Plus
+      url: https://www.vietnam.vn/en/phat-hien-phuong-phap-moi-vo-hieu-hoa-vi-khuan-khang-khang-sinh
+    - outlet: Yahoo! News
+      url: https://malaysia.news.yahoo.com/singapore-scientists-way-help-diabetic-041742793.html
+- doi: 10.1242/jcs.264358
+  year: 2025
+  date: 2025 September 18
+  journal: Journal of Cell Science
+  title: Cell Scientists to Watch. Interview with Guillaume Thibault – President of the Society for Cell Biology Singapore
+  authors: ''
+  cover: 10-1242-jcs-264358.jpg
+  links:
+  - label: Full Text
+    url: https://journals.biologists.com/jcs/article/138/18/jcs264358/369223/Interview-with-Guillaume-Thibault-President-of-the
+  - label: PDF
+    url: https://journals.biologists.com/jcs/article-pdf/138/18/jcs264358/3665851/jcs264358.pdf
+  podcasts:
+  - label: Podcast
+    file: From_Failed_English_to_Cellular_Stress_Expert.m4a
+- doi: 10.1364/OPTICA.564509
+  year: 2025
+  date: 2025 September 4
+  journal: Optica
+  title: Enhanced nanoscale molecular dynamics mapping in live cells by galvo-accelerated single-molecule displacement analysis
+  authors: Zengxin Huang, Wei Wang, Yilin Wang, Hangfeng Li, Mengqing Xu, Anastasiia Fadieieva, <b>Guillaume Thibault</b>, Pakorn Kanchanawong ✉
+  cover: 10-1364-optica-564509.jpg
+  links:
+  - label: Abstract
+    url: https://opg.optica.org/optica/fulltext.cfm?uri=optica-12-9-1452&id=576330
+  - label: Full Text
+    url: https://opg.optica.org/optica/fulltext.cfm?uri=optica-12-9-1452&id=576330
+  - label: PDF
+    url: https://opg.optica.org/optica/viewmedia.cfm?uri=optica-12-9-1452&seq=0
+- doi: 10.1080/1028415X.2025.2546946
+  year: 2025
+  date: 2025 August 25
+  journal: Nutritional Neuroscience
+  title: Choline intake during pregnancy influences maternal cognitive function and hippocampal gene expression in late adulthood
+  authors: Qian Yee Woo, Bernett TK Lee, Lee Wei Lim, Jingtao Zhang, Ayumu Tashiro, Pheck Khee Lau, <b>Guillaume Thibault</b>, Yulan Wang, Valerie C.L. Lin ✉
+  cover: 10-1080-1028415x-2025-2546946.jpg
+  links:
+  - label: Abstract
+    url: https://pubmed.ncbi.nlm.nih.gov/40851519/
+  - label: Full Text
+    url: https://www.tandfonline.com/doi/full/10.1080/1028415X.2025.2546946
+  - label: PDF
+    url: https://www.tandfonline.com/doi/epdf/10.1080/1028415X.2025.2546946?needAccess=true
+- doi: 10.1093/plcell/koaf169
+  year: 2025
+  date: 2025 July 23
+  journal: The Plant Cell
+  title: 'PlantConnectome: a knowledge graph database encompassing >71,000 plant articles'
+  authors: Shan Chun Lim, <b>Manoj Itharajula</b>, Mads Harder Møller, Rohan Shawn Sunil, Kevin Fo, Yu Song Chuah, Herman Foo, Emilia Emmanuelle Davey, Melissa Fullwood, <b>Guillaume Thibault</b>, Marek Mutwil ✉
+  cover: 10-1093-plcell-koaf169.jpg
+  links:
+  - label: Abstract
+    url: https://pubmed.ncbi.nlm.nih.gov/40700523/
+  - label: Full Text
+    url: https://doi.org/10.1093/plcell/koaf169
+  - label: PDF
+    url: https://academic.oup.com/plcell/advance-article-pdf/doi/10.1093/plcell/koaf169/63834644/koaf169.pdf
+  - label: In Brief
+    url: https://doi.org/10.1093/plcell/koaf172
+- doi: 10.1016/j.jmb.2025.169072
+  year: 2025
+  date: 2025 Mar 15
+  journal: Journal of Molecular Biology
+  title: Yeast Knowledge Graphs Database for Exploring <i>Saccharomyces cerevisiae</i> and <i>Schizosaccharomyces pombe</i>
+  authors: Mani R Kumar, <b>Karthick Raja Arulprakasam</b>, An-Nikol Kutevska, Marek Mutwil ✉, <b>Guillaume Thibault ✉</b>
+  cover: 10-1016-j-jmb-2025-169072.jpg
+  links:
+  - label: Abstract
+    url: https://pubmed.ncbi.nlm.nih.gov/40057225/
+  - label: Full Text
+    url: https://www.sciencedirect.com/science/article/pii/S002228362500138X
+  podcasts:
+  - label: Podcast
+    file: AI_maps_3.m4a
+- doi: 10.1186/s12864-024-10997-6
+  year: 2024
+  date: 2024 Nov 13
+  journal: BMC Genomics
+  title: Harnessing full-text publications for deep insights into <i>C. elegans</i> and <i>Drosophila</i> biomaps
+  authors: <b>Karthick Raja Arulprakasam</b>, Jenella Wing Shan Toh, Herman Foo, Mani R Kumar, An-Nikol Kutevska, Emilia Emmanuelle Davey, Marek Mutwil ✉, <b>Guillaume Thibault ✉</b>
+  cover: 10-1186-s12864-024-10997-6.jpg
+  links:
+  - label: Abstract
+    url: https://pubmed.ncbi.nlm.nih.gov/39538127/
+  - label: Full Text
+    url: https://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-024-10997-6
+  - label: PDF
+    url: https://bmcgenomics.biomedcentral.com/counter/pdf/10.1186/s12864-024-10997-6.pdf
+  podcasts:
+  - label: Podcast
+    file: AI_builds_interactive_biomaps_from_research_papers.m4a
+- doi: 10.7554/eLife.95113.3
+  year: 2024
+  date: 2024 May 20
+  journal: eLife
+  title: Decoding the complexity of delayed wound healing following <i>Enterococcus faecalis</i> infection
+  authors: Cenk Celik, Stella Yue Ting Lee, Frederick Reinhart Tanoto, Mark Veleba, Kimberly A. Kline ✉, <b>Guillaume Thibault ✉</b>
+  cover: 10-7554-elife-95113-3.jpg
+  links:
+  - label: Abstract
+    url: https://pubmed.ncbi.nlm.nih.gov/38767331/
+  - label: Full Text
+    url: https://elifesciences.org/articles/95113
+  - label: PDF
+    url: https://elifesciences.org/articles/95113#downloads
+  - label: Raw Data
+    url: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE229257
+  - label: Processed data
+    url: https://zenodo.org/records/7608212
+  - label: eLife Digest
+    url: https://elifesciences.org/digests/95113/heal-thy-wounds
+  podcasts:
+  - label: Podcast
+    file: How_Enterococcus_faecalis_hijacks_wound_healing.m4a
+- doi: 10.1038/s41556-022-01070-z
+  year: 2023
+  date: 2023 Jan 23
+  journal: Nature Cell Biology
+  title: A cell biological perspective on Singapore’s scientific growth (Q&A)
+  authors: Melina Casadio ✉
+  cover: 10-1038-s41556-022-01070-z.jpg
+  links:
+  - label: Abstract
+    url: https://pubmed.ncbi.nlm.nih.gov/36690851/
+  - label: Full Text
+    url: https://www.nature.com/articles/s41556-022-01070-z
+  - label: PDF
+    url: https://www.nature.com/articles/s41556-022-01070-z.pdf
+  notes:
+  - text: Contributors Wanjin Hong and Guillaume Thibault
+- doi: 10.1016/j.plipres.2022.101198
+  year: 2023
+  date: 2023 Jan
+  journal: Progress in Lipid Research
+  title: Endoplasmic reticulum stress and lipids in health and diseases
+  authors: Cenk Celik*, Stella Yue Ting Lee*, Wei Sheng Yap, <b>Guillaume Thibault ✉</b>
+  cover: 10-1016-j-plipres-2022-101198.jpg
+  links:
+  - label: Abstract
+    url: https://pubmed.ncbi.nlm.nih.gov/36379317
+  - label: Full Text
+    url: https://doi.org/10.1016/j.plipres.2022.101198
+  - label: PDF
+    url: https://www.sciencedirect.com/science/article/pii/S0163782722000534/pdfft?md5=e0824923542f4445110f6fdaae5176c2&pid=1-s2.0-S0163782722000534-main.pdf
+  notes:
+  - text: Top cited article in Progress in Lipid Research since January 2023 (Scopus)
+    url: https://www.sciencedirect.com/journal/progress-in-lipid-research
+- doi: 10.1016/j.celrep.2022.111739
+  year: 2022
+  date: 2022 Nov 29
+  journal: Cell Reports
+  title: Neuronal IRE-1 coordinates an organism-wide cold stress response by regulating fat metabolism
+  authors: Reut Dudkevich, Jhee Hong Koh, Caroline Beaudoin-Chabot, Cenk Celik, Ilana Lebenthal-Loinger, Sarit Karako-Lampert, Syed Ahmad-Albukhari, <b>Guillaume Thibault</b>, Sivan Henis-Korenblit ✉
+  cover: 10-1016-j-celrep-2022-111739.jpg
+  links:
+  - label: Abstract
+    url: https://pubmed.ncbi.nlm.nih.gov/36450261/
+  - label: Full Text
+    url: https://www.cell.com/cell-reports/fulltext/S2211-1247(22)01617-5
+  - label: PDF
+    url: https://www.cell.com/cell-reports/pdfExtended/S2211-1247(22)01617-5
+  podcasts:
+  - label: Podcast
+    file: How_neurons_signal_fat_to_survive_cold.m4a
+- doi: 10.17912/micropub.biology.000657
+  year: 2022
+  date: 2022 Oct 26
+  journal: MicroPubl Biology
+  title: A new combinatorial megaplasmid library assembly method designed to screen for minimal pathways by using SCRaMbLE
+  authors: Wei Sheng Yap, <b>Guillaume Thibault ✉</b>
+  cover: 10-17912-micropub-biology-000657.jpg
+  links:
+  - label: Abstract
+    url: https://pubmed.ncbi.nlm.nih.gov/36389121
+  - label: Full Text
+    url: https://www.micropublication.org/journals/biology/micropub-biology-000657
+  - label: PDF
+    url: https://www.micropublication.org/static/pdf/micropub-biology-000657.pdf
+  - label: Data Repository
+    url: https://doi.org/10.21979/N9/XKMAEX
+- doi: 10.1038/s41467-022-33630-0
+  year: 2022
+  date: 2022 Oct 19
+  journal: Nature Communications
+  title: The unfolded protein response reverses the effects of glucose on lifespan in chemically-sterilized <i>C. elegans</i>
+  authors: Caroline Beaudoin-Chabot*, Lei Wang*, Cenk Celik, Aishah T.F. Abdul Khalid, Subhash Thalappilly, Shiyi Xu, Jhee Hong Koh, Venus W.X. Lim, Ann Don Low, <b>Guillaume Thibault ✉</b>
+  cover: 10-1038-s41467-022-33630-0.jpg
+  links:
+  - label: Abstract
+    url: https://pubmed.ncbi.nlm.nih.gov/36261415/
+  - label: Full Text
+    url: https://www.nature.com/articles/s41467-022-33630-0
+  - label: PDF
+    url: https://www.nature.com/articles/s41467-022-33630-0.pdf
+  - label: Data Repository
+    url: http://doi.org/10.21979/N9/GEPEAG
+  podcasts:
+  - label: Podcast
+    file: Why_sugar_extends_life_in_old_age.m4a
+  press:
+    official:
+    - outlet: NTU News
+      url: https://www.ntu.edu.sg/news/detail/stress-response-in-cells-key-to-slow-down-ageing-study
+    local:
+    - outlet: CNA938 Singapore Today
+      url: https://www.channelnewsasia.com/listen/cna938/singapore-today
+    - outlet: Lianhe Zaobao
+      url: /s/Zaobao.pdf
+    - outlet: The Straits Times
+      url: /s/STonline_221024_worms.pdf
+    international:
+    - outlet: Bioengineer
+      url: /s/Bioengineers_221019_worms.pdf
+    - outlet: BioSpectrum Asia Edition
+      url: /s/BioSpectrum-Asia_221020_worms.pdf
+    - outlet: BioTrade
+      url: /s/BioTrade_221024_worms.pdf
+    - outlet: Borneo Bulletin
+      url: /s/BorneoBulletin_221026_worms.pdf
+    - outlet: Canaltech
+      url: /s/Canaltech_221020_worms.pdf
+    - outlet: cnBeta
+      url: /s/cnBeta_221020_worms.pdf
+    - outlet: dailyhunt
+      url: /s/DailyHunt_221019_worms.pdf
+    - outlet: Devdiscourse
+      url: /s/DevDiscourse_221019_worms.pdf
+    - outlet: enanyang
+      url: /s/enanyang_221020_worms.pdf
+    - outlet: Eurekalert
+      url: /s/Eurekalert_221019_worms.pdf
+    - outlet: Euronews Next
+      url: /s/EuroNews_221019_worms.pdf
+    - outlet: Europa press
+      url: /s/Europa-Press_221021_worms-jkck.pdf
+    - outlet: Forbes Russia
+      url: /s/ForbesRussia_221024_worms.pdf
+    - outlet: GEN
+      url: /s/Geneng_221020_Worms.pdf
+    - outlet: Hindustan Times
+      url: /s/HindustanTimes_221019_worms.pdf
+    - outlet: I³ investor
+      url: /s/I3Investor_221024_worms.pdf
+    - outlet: Jago news 24
+      url: /s/I3Investor_221024_worms-4n7y.pdf
+    - outlet: Latest LY
+      url: /s/Latestly_221019_worms.pdf
+    - outlet: Mirage News
+      url: /s/MirageNews_221019_worms.pdf
+    - outlet: Nach Welt
+      url: /s/NachWelt_221020_worms.pdf
+    - outlet: Naked Science
+      url: /s/Naked-Science_221020_worms.pdf
+    - outlet: Neuroscience News
+      url: /s/NeuroscienceNews_221019_worms.pdf
+    - outlet: New Atlas
+      url: /s/New-Atlas_221019_worms.pdf
+    - outlet: News Azi
+      url: /s/NewsAzi_221019_worms.pdf
+    - outlet: Phys Org
+      url: /s/Phys_org_221019_worms.pdf
+    - outlet: Popmesh
+      url: /s/Popmesh_221026_worms.pdf
+    - outlet: Revyuh
+      url: /s/Revyuh_221019_worms.pdf
+    - outlet: Science Daily
+      url: /s/ScienceDaily_221019_worms.pdf
+    - outlet: Scienmag
+      url: /s/Scienmag_221019_worms.pdf
+    - outlet: Sohu
+      url: /s/Sohu_221020_worms.pdf
+    - outlet: Swift Telecast
+      url: /s/Swifttelecast_221019_worms.pdf
+    - outlet: Tencent
+      url: /s/Tencent_221025_worms.pdf
+    - outlet: terra
+      url: /s/Terra_221020_worms.pdf
+    - outlet: The Print
+      url: /s/The-Print_221020_worms.pdf
+    - outlet: The Star
+      url: /s/The-STar_221024_worms.pdf
+    - outlet: Verve Times
+      url: /s/VerveTimes_221019_worms.pdf
+    - outlet: Yahoo
+      url: /s/Yahoo_221019_worms.pdf
+- doi: 10.17912/micropub.biology.000592
+  year: 2022
+  date: 2022 Jun 22
+  journal: MicroPubl Biology
+  title: Human PERK rescues unfolded protein response-deficient yeast cells
+  authors: Wei Sheng Yap, <b>Guillaume Thibault ✉</b>
+  cover: 10-17912-micropub-biology-000592.jpg
+  links:
+  - label: Abstract
+    url: https://pubmed.ncbi.nlm.nih.gov/35845817/
+  - label: Full Text
+    url: https://www.micropublication.org/journals/biology/micropub-biology-000592
+  - label: PDF
+    url: https://www.micropublication.org/static/pdf/micropub-biology-000592.pdf
+  - label: Data Repository
+    url: https://doi.org/10.21979/N9/IGLQOE
+- doi: 10.1111/jcal.12680
+  year: 2022
+  date: 2022 May 2
+  journal: Journal Computer Assisted Learning
+  title: 'Enabling open-ended questions in team-based learning using automated marking: Impact on student achievement, learning and engagement'
+  authors: Sophia Huey Shan Tan ✉, <b>Guillaume Thibault ✉</b>, Anna Chia Yin Chew, Preman Rajalingam
+  cover: 10-1111-jcal-12680.jpg
+  links:
+  - label: Full Text
+    url: https://onlinelibrary.wiley.com/doi/full/10.1111/jcal.12680
+  - label: PDF
+    url: https://onlinelibrary.wiley.com/doi/epdf/10.1111/jcal.12680
+- doi: 10.1016/j.xpro.2021.100868
+  year: 2021
+  date: 2021 Dec 17
+  journal: STAR Protocol
+  title: A high-throughput genetic screening protocol to measure lipid bilayer stress-induced unfolded protein response in <i>Saccharomyces cerevisiae</i>
+  authors: Nurulain Ho*, Wei Sheng Yap*, <b>Guillaume Thibault ✉</b>
+  cover: 10-1016-j-xpro-2021-100868.jpg
+  links:
+  - label: Abstract
+    url: https://pubmed.ncbi.nlm.nih.gov/34647040/
+  - label: Full Text
+    url: https://star-protocols.cell.com/protocols/1054
+  - label: PDF
+    url: https://hivebench-star-protocols.s3.amazonaws.com/protocols/1054.pdf
+- doi: 10.1038/s41467-020-20553-x
+  year: 2021
+  date: 2021 Jan 12
+  journal: Nature Communications
+  title: Functional cooperativity between the trigger factor chaperone and the ClpXP proteolytic complex
+  authors: Kamran Rizzolo, Angela Yeou Hsiung Yu, Adedeji Ologbenla, Sa Rang Kim, Haojie Zhu, Koichiro Ishimori, <b>Guillaume Thibault</b>, Elisa Leung, Yi Wen Zhang, Mona Teng, Marta Haniszewski, Noha Miah, Sadhna Phanse, Zoran Minic, Sukyeong Lee, Julio Diaz Caballero, Mohan Babu, Francis T.F. Tsai, Tomohide Saio, Walid A. Houry
+  cover: 10-1038-s41467-020-20553-x.jpg
+  links:
+  - label: Abstract
+    url: https://pubmed.ncbi.nlm.nih.gov/33436616/
+  - label: Full Text
+    url: https://www.nature.com/articles/s41467-020-20553-x
+  - label: PDF
+    url: https://www.nature.com/articles/s41467-020-20553-x.pdf
+- doi: 10.1016/B978-0-12-819460-7.00189-4
+  year: 2021
+  date: Academic Press, Waltham, 2021, 97-101
+  journal: Encyclopedia of Biological Chemistry III
+  title: Concepts. Heat/Stress Responses
+  authors: <b>Guillaume Thibault</b>, Davis T. Ng, Vikash Verma
+  cover: 10-1016-b978-0-12-819460-7-00189-4.jpg
+  links:
+  - label: Full Text
+    url: https://www.sciencedirect.com/science/article/pii/B9780128194607001894
+- doi: 10.1242/jcs.248526
+  year: 2020
+  date: 2020 Nov 5
+  journal: Journal of Cell Science
+  title: The yeast <i>FIT2</i> homologs are necessary to maintain cellular proteostasis and membrane lipid homeostasis
+  authors: Wei Sheng Yap*, Peter Shyu Jr.*, Maria Laura Gaspar, Stephen A. Jesch, Charlie Marvalim, William A. Prinz, Susan A. Henry, <b>Guillaume Thibault ✉</b>
+  cover: 10-1242-jcs-248526.jpg
+  links:
+  - label: Abstract
+    url: https://pubmed.ncbi.nlm.nih.gov/33033181/
+  - label: Full Text
+    url: https://jcs.biologists.org/content/133/21/jcs248526
+  - label: PDF
+    url: https://jcs.biologists.org/content/joces/133/21/jcs248526.full.pdf
+  - label: Data Repository
+    url: https://doi.org/10.21979/N9/I7MXVP
+  - label: Research Highlight
+    url: https://jcs.biologists.org/content/133/21/e2102
+  - label: First Person
+    url: https://jcs.biologists.org/content/133/21/jcs256016
+  - label: preLights
+    url: https://doi.org/10.1242/prelights.19358
+  podcasts:
+  - label: Podcast
+    file: How_FIT_proteins_link_fat_and_proteins.m4a
+- doi: 10.1083/jcb.201909165
+  year: 2020
+  date: 2020 Apr 29
+  journal: Journal of Cell Biology
+  title: Stress sensor Ire1 deploys a divergent transcriptional program in response to lipid bilayer stress
+  authors: Nurulain Ho*, Wei Sheng Yap*, Jiaming Xu*, Haoxi Wu*, Jhee Hong Koh, Wilson W.B. Goh, Bhawana George, Shu Chen Chong, Stefan Taubert, <b>Guillaume Thibault ✉</b>
+  cover: 10-1083-jcb-201909165.jpg
+  links:
+  - label: Abstract
+    url: https://pubmed.ncbi.nlm.nih.gov/32349127/
+  - label: Full Text
+    url: https://rupress.org/jcb/article/doi/10.1083/jcb.201909165/151719/Stress-sensor-Ire1-deploys-a-divergent
+  - label: PDF
+    url: https://rupress.org/jcb/article-pdf/219/7/e201909165/1382552/jcb_201909165.pdf
+  - label: Data Repository
+    url: https://doi.org/10.21979/N9/5BJD2Z
+  podcasts:
+  - label: Podcast
+    file: Ire1_Senses_Protein_and_Lipid_Bilayer_Stress.m4a
+- doi: 10.3389/978-2-88963-429-3
+  year: 2020
+  date: 2020, eBook
+  journal: Frontiers Media SA
+  title: 'Connections to Membrane Trafficking Where You Least Expect Them: Diseases, Dynamics, Diet and Distance'
+  authors: Rachel S. Kraut, <b>Guillaume Thibault</b>, Sarita Hebbar, Elisabeth Knust
+  cover: 10-3389-978-2-88963-429-3.jpg
+  links:
+  - label: Ebook PDF
+    url: https://www.frontiersin.org/research-topics/8710/pdf
+  - label: Ebook EPUB
+    url: https://www.frontiersin.org/research-topics/8710/epub
+- doi: 10.1016/j.bbalip.2019.04.009
+  year: 2020
+  date: 2020 Jan
+  journal: Biochim Biophys Acta, Mol Cell Biol Lipids
+  title: Lipid bilayer stress and proteotoxic stress-induced unfolded protein response deploy divergent transcriptional and non-transcriptional programmes
+  authors: Xiu Hui Fun, <b>Guillaume Thibault ✉</b>
+  cover: 10-1016-j-bbalip-2019-04-009.jpg
+  links:
+  - label: Abstract
+    url: https://www.ncbi.nlm.nih.gov/pubmed/31028913
+  - label: Full Text
+    url: https://www.sciencedirect.com/science/article/pii/S1388198119300629
+  - label: PDF
+    url: https://pdf.sciencedirectassets.com/271996/AIP/1-s2.0-S1388198119300629/main.pdf?x-amz-security-token=AgoJb3JpZ2luX2VjEPn%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJIMEYCIQCHby7HcjRYrPUiEVMG5Ah5Zuk1NwHA2%2BU5YvPY6ldIBQIhAMxuJKeWeyrhUUtgsHEHyPuuE0VNmsq6VaEFJE279N5gKuMDCNL%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQAhoMMDU5MDAzNTQ2ODY1IgxOM09KrTdJ6GrAtQ8qtwNloUVmZXuh8FDbmqDfZgJaYc8drwNoXmQHmVW%2FsqVIlONorMskumsU6IlvEbsrl46Za2bOgPgdrOot0AC093y8t7c0%2FwmJXLcXn4DKT1ThMKta%2BLoFX04sd52Ka2ioByGpezZPE9Q2dq%2BARMFK5GUq8ABWjnvCAFaUZ3eHkHmc7oUJ2ekYlU5jOCmLmSQo%2FkJkB%2B%2Bk02EywvwL7yAkJIZgu7KjVzjerhZQTLqLWDbh0dU4NDicfoXDxr4yCDWdt9321Hn7UlOMsrNJmI1uAV9OjY0pKOV4JoMAcoEc1YZaQsQ%2FNjv3ODbXD772t%2FZ5d2zrIEvpgl%2BLrKHxmLl1YjQgL9uk35pFFRFuKYIgyZvUtODJBqGIZ3vXsEnz2u3mVRGsdAlz7sIoxv3%2FkoYWAiP5sGdEsxUR%2FjREs5DEg3vyjH8s2R7fgdOYkgvcBTBvQFUzATtgU9naaCYDljsMwKPGOC2ntVmDhVUJRKVk93hiT1ctXpmhIDXyosSZUbpU5ZsEmY1Xb3bq9tFvtpbB0aaUHbEKVRVVJzOznc4rH%2FKZZ6BWClagOfYQN8jcyLo0pa9%2BJ4OB0SAXMKzEgOYFOrMBXB0zJTXg41kltdQR5JGYKGrJnoeY7zl5gH1P%2FiK%2BSLPmWafeupqPm6zofQ27yPup6u1uucvVci5lhldq6BPnATUODeEB%2BuNvHWmQdJqTseQgWHq2EAZT4xQrlM0jRq2PBthyE%2BAvciEEBBcfhwKCcaxs5pkoIq22hO5J8EINyrrSNfNuj9Zfccy90fw8njJpWDro6SXE0ZZCMiZ%2F6c%2FqzNNzSUkW80USJjXF%2FhdKDAYMDPg%3D&AWSAccessKeyId=ASIAQ3PHCVTY3UUISBV6&Expires=1556099014&Signature=7VY26wsjMWavMXG1nssy%2FBoFGUs%3D&hash=40b2804e296ddb178f26d8a4ee060d088d1a09bd77a33d5764ff554b00f33c96&host=68042c943591013ac2b2430a89b270f6af2c76d8dfd086a07176afe7c76c2c61&pii=S1388198119300629&tid=spdf-6bfc34e8-845b-4ca6-86bd-eb09656560e3&sid=bd86961e868a594e965a4d6081440499d40egxrqb&type=client
+- doi: 10.3389/fcell.2019.00327
+  year: 2019
+  date: 2019 Dec 6
+  journal: Frontiers in Cell and Developmental Biology
+  title: 'Editorial: Connections to Membrane Trafficking Where You Least Expect Them: Diseases, Dynamics, Diet and Distance'
+  authors: Sarita Hebbar, Elisabeth Knust, <b>Guillaume Thibault ✉</b>, Rachel Kraut ✉
+  cover: 10-3389-fcell-2019-00327.jpg
+  links:
+  - label: Full Text
+    url: https://www.frontiersin.org/articles/10.3389/fcell.2019.00327/full
+  - label: PDF
+    url: https://www.frontiersin.org/articles/10.3389/fcell.2019.00327/full
+- doi: 10.1016/j.drudis.2019.08.008
+  year: 2019
+  date: 2019 Dec
+  journal: Drug Discovery Today
+  title: Moving beyond the current limits of data analysis in longevity and healthy lifespan studies
+  authors: Wilson W.B. Goh ✉, Subhash Thalappilly, <b>Guillaume Thibault ✉</b>
+  cover: 10-1016-j-drudis-2019-08-008.jpg
+  links:
+  - label: Abstract
+    url: https://www.ncbi.nlm.nih.gov/pubmed/31499187
+  - label: Full Text
+    url: https://www.sciencedirect.com/science/article/pii/S135964461930337X
+  - label: PDF
+    url: https://pdf.sciencedirectassets.com/271275/AIP/1-s2.0-S135964461930337X/main.pdf?X-Amz-Security-Token=AgoJb3JpZ2luX2VjELL%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJHMEUCIFNimLrVH8vD1Qk%2FQvb7pgsUMgFqQoaTEQgmRoGWxJH8AiEAn9hNmU6vgZSCsDcKhkUlprLqSvpoe9wNio6lHFEqh%2BEq4wMIm%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARACGgwwNTkwMDM1NDY4NjUiDCK8sFJe7Z5Vdgr9Oiq3Ax8QrWf2qIKop2dEtJQ4jfw8fai9RhE6eDWnMNLoQLpzOZbz%2BXW4lcnTbDmByrvcoDu%2B7iIdshA7GDthzVCnSaz%2BQe83h%2BQZsh9CTP8r4cx6s8woQ63CqAgGAtvq7SOzf99pUTaWKm3RtoVr7V48bWbhUzsIV0jpstklfgaLgkDJSuZpTl8nxXyOqD2ls9d%2BL8r4XkPS0tRk5pge%2BUqr5%2BaYyPCLR4YR5mn2uXkqVoVrR8vbzVtkFvnSfLw2AUXpk1Xnu9ueupX4JFZ1yUfK78qaZf9m5G1vEGkGO5TnTAo%2FpJX9N1ZDQR96fyxDs5YmbAQWMZeTXCbzOrrUawNG2UCbhcZYiY6TlIHrQyPVEKpUQlGEajJtnghref0PQaKO4p1CtI%2FcFveJVyCLE0SVNuElWQgdfMQNTmT6kxtj7nOSO241tCSW2C0u0F7FUA4J7mZcwVUZQ%2BbAc9YAU7X%2Bb%2B3OIunU5boF1PKsMLdJPNtpMvfywRBoLirLFq8ZPyCkfVIbx81S1xi5tCXPQT16C6LDzd5Gt2YroitbeW5xArH3YRRylUFjJ8OFc79G69Lage5QTW9Cuq8wh%2Fz07AU6tAG3W4xmi3X%2F4IFs53kUVVzVcEv2sCZKDg5fVVxjblg3IuyQW3CCCm%2FD7WhdE0t7LtLnwcVhpySFJwkOj%2FckP2MQH9RD%2FYCrznm7THGSw8dVCc9%2BKJ99GzJlHfQUlnrgPYk%2BRuokME0kfR2Ho1h9pXnbKqrMg5Qp0N7LP1lmB8GwXUkwKSDlJelrdFFfoItVQEaQdlcS9W2pnWdLMsDbu0LkLUazXCB0H2aoKlQmH2dnbbVXpu4%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20191009T023258Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Credential=ASIAQ3PHCVTY5DUZ25DI%2F20191009%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=7a1d3e434d1cce49dd7cbde7c7bb8b17dfc1afee8b1ffe212243271eee51c763&hash=174f2861f50124989843bbcd1a3f6b7a67562295cd98502be806b41a70754bbb&host=68042c943591013ac2b2430a89b270f6af2c76d8dfd086a07176afe7c76c2c61&pii=S135964461930337X&tid=spdf-91286148-5832-4e50-9bf6-bf6a007b4fae&sid=90d329f689279440f8892d52a085a308163fgxrqb&type=client
+- doi: 10.1016/j.celrep.2019.06.036
+  year: 2019
+  date: 2019 Jul 23
+  journal: Cell Reports
+  title: A Role of Agrin in Maintaining the Stability of Vascular Endothelial Growth Factor Receptor-2 during Tumor Angiogenesis
+  authors: Kizito Njah, Sayan Chakraborty, Beiying Qiu, Surender Arumugam, Anandhkumar Raju, Ajaybabu V. Pobbati, Manikandan Lakshmanan, Vinay Tergaonkar, <b>Guillaume Thibault</b>, Xiaomeng Wang, Wanjin Hong
+  cover: 10-1016-j-celrep-2019-06-036.jpg
+  links:
+  - label: Abstract
+    url: https://www.ncbi.nlm.nih.gov/pubmed/?term=31340156
+  - label: Full Text
+    url: https://www.cell.com/cell-reports/fulltext/S2211-1247(19)30802-2
+  - label: PDF
+    url: https://www.cell.com/action/showPdf?pii=S2211-1247%2819%2930802-2
+- doi: 10.1038/s41598-019-45020-6
+  year: 2019
+  date: 2019 Jun 14
+  journal: Scientific Reports
+  title: Membrane phospholipid alteration causes chronic ER stress through early degradation of homeostatic ER-resident proteins
+  authors: Peter Shyu Jr*, Benjamin S.H. Ng*, Nurulain Ho, Ruijie Chaw, Yi Ling Seah, Charlie Marvalim, <b>Guillaume Thibault ✉</b>
+  cover: 10-1038-s41598-019-45020-6.jpg
+  links:
+  - label: Abstract
+    url: https://www.ncbi.nlm.nih.gov/pubmed/31201345
+  - label: Full Text
+    url: https://www.nature.com/articles/s41598-019-45020-6
+  - label: PDF
+    url: https://www.nature.com/articles/s41598-019-45020-6.pdf
+- doi: 10.3389/fphys.2019.00641
+  year: 2019
+  date: 2019 May 28
+  journal: Frontiers in Physiology
+  title: Deuterated polyunsaturated fatty acids reduce oxidative stress and extend the lifespan of <i>C. elegans</i>
+  authors: Caroline Beaudoin-Chabot, Lei Wang, Alexey V. Smarun, Dragoslav Vidovic, Mikhail S. Shchepinov, <b>Guillaume Thibault ✉</b>
+  cover: 10-3389-fphys-2019-00641.jpg
+  links:
+  - label: Abstract
+    url: https://www.ncbi.nlm.nih.gov/pubmed/31191345
+  - label: Full Text
+    url: https://www.frontiersin.org/articles/10.3389/fphys.2019.00641/abstract
+  - label: PDF
+    url: https://www.frontiersin.org/articles/10.3389/fphys.2019.00641/abstract
+  - label: Data Repository
+    url: https://doi.org/10.21979/N9/MGPD5H
+- doi: 10.1242/jcs.217992
+  year: 2018
+  date: 2018 Nov 21
+  journal: Journal of Cell Science
+  title: Lipid bilayer stress-activated IRE-1 modulates autophagy during endoplasmic reticulum stress
+  authors: Jhee Hong Koh*, Lei Wang*, Caroline Beaudoin-Chabot, <b>Guillaume Thibault ✉</b>
+  cover: 10-1242-jcs-217992.jpg
+  links:
+  - label: Abstract
+    url: https://www.ncbi.nlm.nih.gov/pubmed/30333136
+  - label: Full Text
+    url: http://jcs.biologists.org/content/131/22/jcs217992
+  - label: PDF
+    url: http://jcs.biologists.org/content/131/22/jcs217992.full.pdf
+  - label: Data Repository
+    url: https://doi.org/10.21979/N9/OLY1FU
+  podcasts:
+  - label: Podcast
+    file: How_lipid_bilayer_stress_triggers_autophagy.m4a
+- doi: 10.1042/BSR20180764
+  year: 2018
+  date: 2018 Sep 19, 38(5)
+  journal: Bioscience Reports
+  title: 'Dropping in on lipid droplets: insights into cellular stress and cancer'
+  authors: Peter Shyu Jr*, Xing Fah Wong*, Karen Crasta ✉, <b>Guillaume Thibault ✉</b>
+  cover: 10-1042-bsr20180764.jpg
+  links:
+  - label: Abstract
+    url: https://www.ncbi.nlm.nih.gov/pubmed/30111611
+  - label: Full Text
+    url: http://www.bioscirep.org/content/38/5/BSR20180764
+  - label: PDF
+    url: http://www.bioscirep.org/content/ppbioscirep/38/5/BSR20180764.full.pdf
+- doi: 10.1242/jcs.199307
+  year: 2018
+  date: 2018 Feb 8;131(3)
+  journal: Journal of Cell Science
+  title: From the unfolded protein response to metabolic diseases - lipids under the spotlight
+  authors: Nurulain Ho, Chengchao Xu, <b>Guillaume Thibault ✉</b>
+  cover: 10-1242-jcs-199307.jpg
+  links:
+  - label: Abstract
+    url: https://www.ncbi.nlm.nih.gov/pubmed/29439157
+  - label: Full Text
+    url: http://jcs.biologists.org/content/131/3/jcs199307.long
+  - label: PDF
+    url: http://jcs.biologists.org/content/131/3/jcs199307.full.pdf
+- doi: 10.1042/BSR20140058
+  year: 2014
+  date: 2014 Aug 1, 34(4)
+  journal: Bioscience Reports
+  title: Endoplasmic Reticulum Stress Response in Yeast and Humans
+  authors: Haoxi Wu*, Benjamin S.H. Ng*, <b>Guillaume Thibault ✉</b>
+  cover: 10-1042-bsr20140058.jpg
+  links:
+  - label: Abstract
+    url: http://www.ncbi.nlm.nih.gov/pubmed/24909749
+  - label: Full Text
+    url: https://portlandpress.com/bioscirep/article-lookup/doi/10.1042/BSR20140058
+- doi: 10.1126/science.1234055
+  year: 2013
+  date: 2013, 340, 978-981
+  journal: Science
+  title: Futile Protein Folding Cycles in the ER Are Terminated by the Unfolded Protein O-Mannosylation Pathway
+  authors: Chengchao Xu, Songyu Wang, <b>Guillaume Thibault</b>, Davis T. Ng
+  cover: 10-1126-science-1234055.jpg
+  links:
+  - label: Abstract
+    url: http://www.ncbi.nlm.nih.gov/pubmed/23704572
+  - label: Full Text
+    url: http://www.sciencemag.org/content/340/6135/978.full
+  - label: Perspective in Science
+    url: http://www.sciencemag.org/content/340/6135/930.summary
+  - label: Faculty Opinions
+    url: https://facultyopinions.com/prime/718021961
+  notes:
+  - text: Research Highlights in Nature Chemical Biology
+    url: http://www.nature.com/nchembio/journal/v9/n7/full/nchembio.1285.html
+- doi: 10.1016/B978-0-12-378630-2.00427-8
+  year: 2013
+  date: Academic Press, Waltham, 2013, 522-525
+  journal: Encyclopedia of Biological Chemistry
+  title: Heat/Stress Responses
+  authors: <b>Guillaume Thibault ✉</b>, Davis T. Ng
+  cover: 10-1016-b978-0-12-378630-2-00427-8.jpg
+  links:
+  - label: Full Text
+    url: http://www.sciencedirect.com/science/article/pii/B9780123786302004278
+- doi: 10.1101/cshperspect.a013193
+  year: 2012
+  date: 2012 Dec 3;4(12):a013193
+  journal: Cold Spring Harbor Perspectives in Biology
+  title: The Endoplasmic Reticulum-Associated Degradation Pathways of Budding Yeast
+  authors: <b>Guillaume Thibault</b>, Davis T. Ng
+  cover: 10-1101-cshperspect-a013193.jpg
+  links:
+  - label: Abstract
+    url: http://www.ncbi.nlm.nih.gov/pubmed/23209158
+  - label: Full Text
+    url: http://cshperspectives.cshlp.org/content/4/12/a013193.full
+- doi: 10.1016/j.molcel.2012.08.016
+  year: 2012
+  date: 2012, 48, 16-27
+  journal: Molecular Cell
+  title: The membrane stress response buffers lethal effects of lipid disequilibrium by reprogramming the protein homeostasis network
+  authors: <b>Guillaume Thibault</b>, Guanghou Shui, Woong Kim, Graeme C. McAlister, Nurzian Ismail, Steven P. Gygi, Markus R. Wenk, Davis T. Ng
+  cover: 10-1016-j-molcel-2012-08-016.jpg
+  links:
+  - label: Abstract
+    url: http://www.ncbi.nlm.nih.gov/pubmed/23000174
+  - label: Full Text
+    url: http://www.sciencedirect.com/science/article/pii/S1097276512007344
+  - label: Featured on the Cover
+    url: http://www.cell.com/molecular-cell/issue?pii=S1097-2765%2812%29X0020-0#
+  - label: Faculty Opinions
+    url: https://facultyopinions.com/prime/717960701
+- doi: 10.1021/jp212024b
+  year: 2012
+  date: 2012, 116, 6717-6724
+  journal: Journal of Physical Chemistry B
+  title: The role of the N-terminal domain of the chaperone ClpX in recognition and degradation of lambda phage protein O
+  authors: <b>Guillaume Thibault</b>, Walid A. Houry
+  cover: 10-1021-jp212024b.jpg
+  links:
+  - label: Abstract
+    url: http://www.ncbi.nlm.nih.gov/pubmed/22360725
+  - label: Full Text
+    url: http://pubs.acs.org/doi/abs/10.1021/jp212024b
+- doi: 10.1073/pnas.1117184109
+  year: 2011
+  date: 2011, 108, 20597-20602
+  journal: PNAS
+  title: The unfolded protein response supports cellular robustness as a broad-spectrum compensatory pathway
+  authors: <b>Guillaume Thibault*</b>, Nurzian Ismail*, Davis T. Ng
+  cover: 10-1073-pnas-1117184109.jpg
+  links:
+  - label: Abstract
+    url: http://www.ncbi.nlm.nih.gov/pubmed/22143797
+  - label: Full Text
+    url: http://www.pnas.org/content/108/51/20597.long
+- doi: 10.1074/jbc.M111.233346
+  year: 2011
+  date: 2011, 286, 29376-23987
+  journal: Journal of Biological Chemistry
+  title: Routing misfolded proteins through the multivesicular body (MVB) pathway protects against proteotoxicity
+  authors: Songyu Wang, <b>Guillaume Thibault</b>, Davis T. Ng
+  cover: 10-1074-jbc-m111-233346.jpg
+  links:
+  - label: Abstract
+    url: http://www.ncbi.nlm.nih.gov/pubmed/21708947
+  - label: Full Text
+    url: http://www.jbc.org/content/286/33/29376.long
+- doi: 10.1038/emboj.2011.5
+  year: 2011
+  date: 2011, 30, 931-944
+  journal: EMBO Journal
+  title: 'Linkage between the bacterial acid stress and stringent responses: the structure of the inducible lysine decarboxylase'
+  authors: Usheer Kanjee, Irina Gutsche, Eftichia Alexopoulos, Boyu Zhao, Majida El Bakkouri, <b>Guillaume Thibault</b>, Kaiyin Liu, Shaliny Ramachandran, Jamie Snider, Emil F. Pai. Walid A. Houry
+  cover: 10-1038-emboj-2011-5.jpg
+  links:
+  - label: Abstract
+    url: http://www.ncbi.nlm.nih.gov/pubmed/21278708
+  - label: Full Text
+    url: https://www.embopress.org/doi/full/10.1038/emboj.2011.5
+  - label: Faculty Opinions
+    url: https://facultyopinions.com/prime/8581956
+- doi: 10.1186/gb-2008-9-4-216
+  year: 2008
+  date: 2008, 9, 216
+  journal: Genome Biology
+  title: The AAA+ superfamily of functionally diverse proteins
+  authors: Jamie Snider*, <b>Guillaume Thibault*</b>, Walid A. Houry
+  cover: 10-1186-gb-2008-9-4-216.jpg
+  links:
+  - label: Abstract
+    url: http://www.ncbi.nlm.nih.gov/pubmed/18466635
+  - label: Full Text
+    url: http://genomebiology.com/content/9/4/216
+- doi: 10.1073/pnas.0601505103
+  year: 2006
+  date: 2006, 103, 17724-17729
+  journal: PNAS
+  title: Specificity in substrate and cofactor recognition by the N-terminal domain of the chaperone ClpX
+  authors: <b>Guillaume Thibault</b>, Jovana Yudin, Philip Wong, Vladimir Tsitrin, Remco Sprangers, Rongmin Zhao, Walid A. Houry
+  cover: 10-1073-pnas-0601505103.jpg
+  links:
+  - label: Abstract
+    url: http://www.ncbi.nlm.nih.gov/pubmed/17090685
+  - label: Full Text
+    url: http://www.pnas.org/content/103/47/17724.long
+- doi: 10.1038/sj.emboj.7601223
+  year: 2006
+  date: 2006, 25, 3367-3376
+  journal: EMBO Journal
+  title: 'Large-scale nucleotide-dependent movement of the N-terminal zinc binding domain of ClpX: implications for chaperone function and regulation'
+  authors: <b>Guillaume Thibault*</b>, Yulia Tsitrin*, Toni Davidson, Anna Gribun, Walid A. Houry
+  cover: 10-1038-sj-emboj-7601223.jpg
+  links:
+  - label: Abstract
+    url: http://www.ncbi.nlm.nih.gov/pubmed/16810315
+  - label: Full Text
+    url: https://www.embopress.org/doi/full/10.1038/sj.emboj.7601223
+- doi: 10.1074/jbc.M307825200
+  year: 2003
+  date: 2003, 278, 48981-48990
+  journal: Journal of Biological Chemistry
+  title: The N-terminal zinc binding domain of ClpX is a substrate sensing and dimerization domain that modulates the chaperone function
+  authors: Urszula A. Wojtyra*, <b>Guillaume Thibault*</b>, Ashleigh Tuite, Walid A. Houry
+  cover: 10-1074-jbc-m307825200.jpg
+  links:
+  - label: Abstract
+    url: http://www.ncbi.nlm.nih.gov/pubmed/12937164
+  - label: Full Text
+    url: http://www.jbc.org/content/278/49/48981.long
