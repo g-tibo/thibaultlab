@@ -27,6 +27,8 @@ jobs:
         id: pages
       - run: npm ci
       - run: npx @11ty/eleventy --pathprefix="${{ steps.pages.outputs.base_path }}/"
+        env:
+          SITE_URL: ${{ steps.pages.outputs.base_url }}
       - uses: actions/upload-pages-artifact@v3
         with:
           path: _site
