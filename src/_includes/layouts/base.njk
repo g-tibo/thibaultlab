@@ -5,11 +5,20 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>{% if (title or name) and (title or name) != site.title %}{{ title or name }} | {% endif %}{{ site.title }}</title>
 <meta name="description" content="{{ description or site.description }}">
-<link rel="canonical" href="{{ site.url }}{{ page.url }}">
+<link rel="canonical" href="{{ env.siteUrl }}{{ page.url }}">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="{{ site.title }}">
 <meta property="og:title" content="{{ title or name or site.title }}">
 <meta property="og:description" content="{{ description or site.description }}">
+<meta property="og:url" content="{{ env.siteUrl }}{{ page.url }}">
+<meta property="og:image" content="{{ env.siteUrl }}/assets/img/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Thibault Lab logo">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{ title or name or site.title }}">
+<meta name="twitter:description" content="{{ description or site.description }}">
+<meta name="twitter:image" content="{{ env.siteUrl }}/assets/img/og-image.png">
 <meta name="theme-color" content="#EEF1EC">
 <link rel="icon" href="/assets/img/favicon.ico" sizes="any">
 <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon-32.png">
