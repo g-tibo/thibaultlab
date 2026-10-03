@@ -38,7 +38,7 @@ h1,h2,h3{font-family:var(--head);margin:0;line-height:1.15}
 }
 
 /* hero */
-.hero{position:relative;min-height:clamp(600px,88vh,820px);min-height:clamp(600px,88svh,820px);background:#BFC8C0 radial-gradient(circle at 64% 50%,#D3DAD1 0%,#B2BCB5 75%);color:#1E2A28;display:flex;align-items:flex-end;overflow:hidden}
+.hero{position:relative;min-height:clamp(600px,88vh,820px);min-height:clamp(600px,88svh,820px);background-color:#C3CBC3;color:#1E2A28;display:flex;align-items:flex-end;overflow:hidden}
 .hero canvas{position:absolute;inset:0;width:100%;height:100%;display:block}
 .hero-in{position:relative;z-index:2;max-width:1120px;width:100%;margin:0 auto;padding:0 24px 60px}
 .hero h1{color:#1E2A28;font-size:clamp(2.1rem,4.8vw,3.9rem);font-weight:700;letter-spacing:.01em;text-transform:uppercase;max-width:12ch;line-height:1.05}
@@ -49,7 +49,7 @@ h1,h2,h3{font-family:var(--head);margin:0;line-height:1.15}
 .cta:focus-visible{outline-color:#1E2A28}
 .hero .alt{white-space:nowrap;color:#1E2A28;font-weight:500}
 @media (min-width:721px){.hero{align-items:center}.hero-in{padding-bottom:0}}
-@media (max-width:720px){.hero{display:block;min-height:0;background:#BFC8C0 radial-gradient(circle at 50% 36vw,#D3DAD1 0%,#B2BCB5 95%)}.hero-in{padding:calc(84vw + 56px) 24px 44px}}
+@media (max-width:720px){.hero{display:block;min-height:0}.hero-in{padding:calc(84vw + 56px) 24px 44px}}
 
 /* sections */
 .wrap{max-width:1120px;margin:0 auto;padding:0 24px}
@@ -173,7 +173,7 @@ details.press p{margin:0 0 8px}
 .fig-upr{--fg:#78c58a;--fgrey:#c9c9c9;--fl:#4a4a4a}
 @media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .fig-upr{--fg:#2f6b3f;--fgrey:#4a4a4a;--fl:#b9b9b9}}
 :root[data-theme="dark"] .fig-upr{--fg:#2f6b3f;--fgrey:#4a4a4a;--fl:#b9b9b9}
-@media (max-width:760px){.rs{grid-template-columns:1fr;gap:18px;padding:32px 0}.rs .fig{order:2;max-width:220px}.rs .fig svg,.rs .fig img{max-width:100%}}
+@media (max-width:760px){.rs{grid-template-columns:1fr;gap:18px;padding:32px 0}.rs .fig{order:2;max-width:240px;margin:0 auto}.rs .fig svg,.rs .fig img{max-width:100%}}
 .nh{font-size:1.4rem;font-weight:700;margin:32px 0 0}
 .ny{display:grid;grid-template-columns:110px 1fr;gap:12px 32px;padding:28px 0;border-top:1px solid var(--line)}
 .ny:first-of-type{margin-top:16px}
