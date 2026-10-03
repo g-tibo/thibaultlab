@@ -8,8 +8,8 @@ const R=(a,b)=>a+Math.random()*(b-a),TAU=Math.PI*2,ERC="#62726E";
 
 function build(){
   const wide=W>720;
-  Rc=wide?Math.min(W*.42,H*.62):Math.min(W*.56,H*.31);
-  cx=wide?W*.64:W*.5;cy=wide?H*.5:H*.34;Rn=Rc*.4;
+  Rc=wide?Math.min(W*.42,H*.62):W*.42;
+  cx=wide?W*.64:W*.5;cy=wide?H*.5:Rc+14;Rn=Rc*.4;
   const rin=Rn*.55,rout=Rc*.88,k=Math.max(Rc/380,.75),cap=wide?720:320;
   pts=[];
   for(let n=0;n<9000&&pts.length<cap;n++){
@@ -118,9 +118,9 @@ function draw(){
   }
   ctx.fill("evenodd");
   /* soft veil behind the text */
-  const v=W>720?ctx.createLinearGradient(0,0,W*.6,0):ctx.createLinearGradient(0,H,0,H*.42);
+  if(W>720){const v=ctx.createLinearGradient(0,0,W*.6,0);
   v.addColorStop(0,"rgba(196,204,196,.86)");v.addColorStop(.55,"rgba(196,204,196,.55)");v.addColorStop(1,"rgba(196,204,196,0)");
-  ctx.fillStyle=v;ctx.fillRect(0,0,W,H);
+  ctx.fillStyle=v;ctx.fillRect(0,0,W,H)}
 }
 function loop(){if(!run)return;t+=.016;draw();requestAnimationFrame(loop)}
 function setRun(v){if(reduce)return;if(v&&!run){run=true;requestAnimationFrame(loop)}else if(!v)run=false}

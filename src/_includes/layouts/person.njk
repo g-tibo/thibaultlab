@@ -12,7 +12,8 @@ navkey: people
       <h1>{{ name }}</h1>
       <p class="role">{{ role }}</p>
       {% if credentials %}<div class="creds">{% for c in credentials %}<p>{{ c | safe }}</p>{% endfor %}</div>{% endif %}
-      {% if email or links %}<div class="plinks">{% if email %}<a href="mailto:{{ email }}">Email</a>{% endif %}{% for l in links %}<a href="{{ l.url }}" target="_blank" rel="noopener">{{ l.label }}</a>{% endfor %}</div>{% endif %}
+      {% set items = ([{ label: "Email", url: "mailto:" + email }] if email else []).concat(links or []) %}
+      {% if items.length %}{% include "partials/profile-links.njk" %}{% endif %}
       <div class="prose">{{ content | safe }}</div>
     </div>
   </div>

@@ -4,6 +4,7 @@
   --ink:#24312F; --foot:#DFE5DE;
   --head:"Roboto","Helvetica Neue",Arial,sans-serif;
   --body:"Roboto","Helvetica Neue",Arial,sans-serif;
+  color-scheme:light dark;
   box-sizing:border-box;
   padding-top:env(safe-area-inset-top,0px);
   padding-bottom:env(safe-area-inset-bottom,0px);
@@ -37,10 +38,10 @@ h1,h2,h3{font-family:var(--head);margin:0;line-height:1.15}
 }
 
 /* hero */
-.hero{position:relative;min-height:clamp(600px,88vh,820px);min-height:clamp(600px,88svh,820px);background:#BFC8C0;color:#1E2A28;display:flex;align-items:flex-end;overflow:hidden}
+.hero{color-scheme:light;position:relative;min-height:clamp(600px,88vh,820px);min-height:clamp(600px,88svh,820px);background:#BFC8C0;color:#1E2A28;display:flex;align-items:flex-end;overflow:hidden}
 .hero canvas{position:absolute;inset:0;width:100%;height:100%;display:block}
 .hero-in{position:relative;z-index:2;max-width:1120px;width:100%;margin:0 auto;padding:0 24px 60px}
-.hero h1{font-size:clamp(2.1rem,4.8vw,3.9rem);font-weight:700;letter-spacing:.01em;text-transform:uppercase;max-width:12ch;line-height:1.05}
+.hero h1{color:#1E2A28;font-size:clamp(2.1rem,4.8vw,3.9rem);font-weight:700;letter-spacing:.01em;text-transform:uppercase;max-width:12ch;line-height:1.05}
 .hero .sub{font-weight:400;font-size:clamp(1.1rem,2vw,1.4rem);margin:18px 0 0;max-width:28ch;color:#33403E;line-height:1.35}
 .hero-cta{display:flex;flex-wrap:wrap;align-items:center;gap:14px 22px;margin-top:30px}
 .cta{display:inline-block;white-space:nowrap;background:#24312F;color:#F4F7F3;font-weight:500;text-decoration:none;padding:13px 24px;border-radius:999px}
@@ -48,7 +49,7 @@ h1,h2,h3{font-family:var(--head);margin:0;line-height:1.15}
 .cta:focus-visible{outline-color:#1E2A28}
 .hero .alt{white-space:nowrap;color:#1E2A28;font-weight:500}
 @media (min-width:721px){.hero{align-items:center}.hero-in{padding-bottom:0}}
-@media (max-width:720px){.hero{min-height:660px}.hero-in{padding-bottom:40px}}
+@media (max-width:720px){.hero{display:block;min-height:0}.hero-in{padding:calc(84vw + 56px) 24px 44px}}
 
 /* sections */
 .wrap{max-width:1120px;margin:0 auto;padding:0 24px}
@@ -82,6 +83,7 @@ h1,h2,h3{font-family:var(--head);margin:0;line-height:1.15}
 .tools{display:flex;flex-wrap:wrap;gap:14px 18px;align-items:center;margin:20px 0 8px}
 .search{flex:1 1 260px;max-width:420px;padding:11px 14px;border:1px solid var(--line);background:var(--surface);color:var(--text);border-radius:10px;font:inherit;font-size:1rem}
 .chips{display:flex;gap:6px;flex-wrap:wrap}
+@media (max-width:600px){.tools{display:block}.search{max-width:none;width:100%}.chips{flex-wrap:nowrap;overflow-x:auto;margin:12px -24px 0;padding:0 24px 8px;scrollbar-width:none;-webkit-overflow-scrolling:touch}.chips::-webkit-scrollbar{display:none}.chip{flex:none}}
 .chip{border:1px solid var(--line);background:transparent;color:var(--text);padding:6px 12px;border-radius:999px;font:inherit;font-size:.92rem;cursor:pointer}
 .chip[aria-pressed="true"]{background:var(--ink);border-color:var(--ink);color:#fff}
 @media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .chip[aria-pressed="true"]{background:var(--link);border-color:var(--link);color:#0E1513}}
@@ -155,7 +157,7 @@ details.press p{margin:0 0 8px}
 .arow b{font-weight:700}
 .arow p{margin:2px 0 0;color:var(--muted);font-size:.95rem;line-height:1.5}
 @media (max-width:900px){.team{grid-template-columns:repeat(3,1fr)}}
-@media (max-width:760px){.person{grid-template-columns:1fr;gap:20px}.pside{position:static}.person .ph{max-width:240px}.alum{grid-template-columns:1fr}.brow{grid-template-columns:96px 1fr;gap:12px}}
+@media (max-width:760px){.person{grid-template-columns:1fr;gap:20px}.pside{position:static}.person .ph{max-width:168px}.alum{grid-template-columns:1fr}.brow{grid-template-columns:96px 1fr;gap:12px}}
 @media (max-width:600px){.team{grid-template-columns:repeat(2,1fr);gap:28px 16px}.join{padding:22px}}
 .rs{display:grid;grid-template-columns:200px 1fr;gap:48px;padding:40px 0;border-top:1px solid var(--line)}
 .rs:first-child{border-top:0;padding-top:16px}
@@ -171,7 +173,7 @@ details.press p{margin:0 0 8px}
 .fig-upr{--fg:#78c58a;--fgrey:#c9c9c9;--fl:#4a4a4a}
 @media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .fig-upr{--fg:#2f6b3f;--fgrey:#4a4a4a;--fl:#b9b9b9}}
 :root[data-theme="dark"] .fig-upr{--fg:#2f6b3f;--fgrey:#4a4a4a;--fl:#b9b9b9}
-@media (max-width:760px){.rs{grid-template-columns:1fr;gap:20px;padding:32px 0}.rs .fig{max-width:180px}}
+@media (max-width:760px){.rs{grid-template-columns:1fr;gap:18px;padding:32px 0}.rs .fig{order:2;max-width:220px}.rs .fig svg,.rs .fig img{max-width:100%}}
 .nh{font-size:1.4rem;font-weight:700;margin:32px 0 0}
 .ny{display:grid;grid-template-columns:110px 1fr;gap:12px 32px;padding:28px 0;border-top:1px solid var(--line)}
 .ny:first-of-type{margin-top:16px}
@@ -249,3 +251,18 @@ footer a{color:var(--link)}
 .prose ol{margin:0}
 .prose h2:first-child{margin-top:36px}
 .nonotes{display:none}
+
+/* ---- profile link icons: icons with names on desktop, icons only on phones ---- */
+.ilinks{display:flex;flex-wrap:wrap;gap:10px;margin:22px 0 0}
+.ib{display:inline-flex;align-items:center;justify-content:center;gap:8px;height:40px;padding:0 15px 0 12px;border-radius:999px;border:1px solid var(--line);color:var(--text);background:transparent;font-size:.92rem;font-weight:500;line-height:1;text-decoration:none;transition:background .15s,color .15s,border-color .15s}
+.ib svg{width:18px;height:18px;display:block;flex:none}
+.ib:hover,.ib:focus-visible{background:var(--ink);border-color:var(--ink);color:#fff}
+.ib:focus-visible{outline:2px solid var(--link);outline-offset:3px}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .ib:hover,:root:not([data-theme="light"]) .ib:focus-visible{background:var(--link);border-color:var(--link);color:#0E1513}}
+:root[data-theme="dark"] .ib:hover,:root[data-theme="dark"] .ib:focus-visible{background:var(--link);border-color:var(--link);color:#0E1513}
+@media (max-width:640px){
+  .ilinks{gap:9px}
+  .ib{width:44px;height:44px;padding:0}
+  .ib span{display:none}
+  .ib svg{width:21px;height:21px}
+}

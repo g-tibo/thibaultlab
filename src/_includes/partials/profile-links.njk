@@ -1,0 +1,1 @@
+<div class="ilinks">{% for l in items %}<a class="ib" href="{{ l.url }}"{% if not l.url.startsWith("mailto:") %} target="_blank" rel="noopener"{% endif %} aria-label="{{ l.label }}">{{ (icons[l.label | lower] or icons.link) | safe }}<span>{{ l.label }}</span></a>{% endfor %}</div>

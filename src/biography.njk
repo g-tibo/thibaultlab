@@ -16,7 +16,8 @@ description: Biography of Guillaume Thibault, Associate Professor at the School 
       <h1>{{ b.name }}</h1>
       <p class="role">{{ b.role }}</p>
       <div class="creds addr">{% for l in b.address %}<p>{{ l | safe }}</p>{% endfor %}</div>
-      <div class="plinks">{% for l in b.links %}<a href="{{ l.url }}"{% if not l.url.startsWith("mailto:") %} target="_blank" rel="noopener"{% endif %}>{{ l.label }}</a>{% endfor %}</div>
+      {% set items = b.links %}
+      {% include "partials/profile-links.njk" %}
       <div class="prose" style="margin-top:28px">{% for p in b.intro %}<p>{{ p | safe }}</p>{% endfor %}</div>
       {% for s in b.sections %}
       <h2>{{ s.title }}</h2>
