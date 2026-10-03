@@ -15,6 +15,26 @@
     url: https://www.cell.com/cell-host-microbe/fulltext/S1931-3128(26)00002-8
   - label: PDF
     url: https://www.cell.com/cell-host-microbe/pdf/S1931-3128(26)00002-8.pdf
+  press:
+    official:
+    - outlet: MIT News
+      url: https://news.mit.edu/2026/how-bacteria-suppress-immune-defenses-stubborn-wound-infections-0407
+    - outlet: SMART press release
+      url: https://www.eurekalert.org/news-releases/1119724
+    local: []
+    international:
+    - outlet: Medical Xpress
+      url: https://medicalxpress.com/news/2026-03-bacteria-suppress-immune-defenses-stubborn.html
+    - outlet: Technology Networks
+      url: https://www.technologynetworks.com/tn/articles/how-bacteria-disarm-immune-defenses-in-chronic-wound-infections-412024
+    - outlet: BioSpectrum Asia
+      url: https://www.biospectrumasia.com/news/98/27374/singapore-researchers-uncover-bacterial-immunity-suppression-in-stubborn-wound-infections.html
+    - outlet: Medical Channel Asia
+      url: https://medicalchannelasia.com/press-release/smart-researchers-uncover-how-bacteria-suppress-immune-defences-in-stubborn-wound-infections/
+    - outlet: Down To Earth
+      url: https://www.downtoearth.org.in/health/why-some-wounds-just-wont-heal-scientists-find-bacteria-that-can-switch-off-the-immune-system
+    - outlet: Lab Online
+      url: https://www.labonline.com.au/content/life-scientist/article/revealed-a-common-bacterium-s-role-in-stubborn-wound-infections-1281047773
 - doi: 10.1126/sciadv.aeb5297
   year: 2026
   date: 2026 January 16
