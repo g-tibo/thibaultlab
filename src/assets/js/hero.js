@@ -53,14 +53,12 @@ function trace(k){
   ctx.closePath();
 }
 function draw(){
-  const bg=ctx.createRadialGradient(cx,cy,Rc*.2,cx,cy,Math.max(W,H)*.8);
-  bg.addColorStop(0,"#CFD6CD");bg.addColorStop(1,"#ABB5B1");
-  ctx.fillStyle=bg;ctx.fillRect(0,0,W,H);
+  ctx.clearRect(0,0,W,H);
 
   /* ER lattice between nucleus and membrane */
   ctx.save();
   ctx.beginPath();trace(1);ctx.clip();
-  ctx.fillStyle="rgba(242,246,242,.34)";ctx.fillRect(0,0,W,H);
+  ctx.fillStyle="#D9DFD8";ctx.fillRect(0,0,W,H);
   if(window.d3&&d3.Delaunay&&pts.length>3){
     const flat=new Float64Array(pts.length*2);
     pts.forEach((p,i)=>{

@@ -52,8 +52,12 @@
       <p>{{ site.address }}<br>{{ site.city }}<br><a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
     </div>
     <div>
-      <p><a href="{{ site.linkedin }}">LinkedIn</a><br><a href="{{ site.youtube }}">YouTube</a><br><a href="{{ site.bluesky }}">Bluesky</a></p>
-      <p style="margin-top:14px">© 2013-{{ "" | currentYear }} Thibault Lab</p>
+      <div class="social">
+        <a class="ib round" href="{{ site.linkedin }}" aria-label="LinkedIn">{{ icons.linkedin | safe }}</a>
+        <a class="ib round" href="{{ site.youtube }}" aria-label="YouTube">{{ icons.youtube | safe }}</a>
+        <a class="ib round" href="{{ site.bluesky }}" aria-label="Bluesky">{{ icons.bluesky | safe }}</a>
+      </div>
+      <p>© 2013-{{ "" | currentYear }} Thibault Lab</p>
     </div>
   </div>
 </footer>
