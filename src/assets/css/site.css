@@ -286,8 +286,10 @@ footer .f-info{text-align:center}
 footer .f-right{justify-self:end;text-align:right}
 footer .f-right .social{justify-content:flex-end}
 @media (max-width:760px){
-  footer .fgrid{grid-template-columns:1fr;gap:26px;align-items:start}
-  footer .f-info{text-align:left}
-  footer .f-right{justify-self:start;text-align:left}
-  footer .f-right .social{justify-content:flex-start}
+  footer .fgrid{grid-template-columns:1fr;gap:26px;align-items:start;justify-items:center}
+  footer .f-logo{justify-self:center}
+  footer .f-logo .ntu{margin:0 auto}
+  footer .f-info{text-align:center}
+  footer .f-right{justify-self:center;text-align:center}
+  footer .f-right .social{justify-content:center}
 }
