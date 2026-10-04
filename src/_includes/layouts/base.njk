@@ -46,13 +46,15 @@
 {{ content | safe }}
 </main>
 <footer>
-  <div class="wrap">
-    <div>
-      <a class="ntu" href="https://www.ntu.edu.sg/" aria-label="Nanyang Technological University, Singapore"><img src="/assets/img/ntu-logo-white.png" alt="Nanyang Technological University, Singapore" width="520" height="191"></a>
+  <div class="wrap fgrid">
+    <div class="f-logo">
+      <a class="ntu" href="https://www.ntu.edu.sg/" aria-label="Nanyang Technological University, Singapore"><picture><source media="(prefers-color-scheme: dark)" srcset="/assets/img/ntu-logo-white.png"><img src="/assets/img/ntu-logo-black.png" alt="Nanyang Technological University, Singapore" width="520" height="189"></picture></a>
+    </div>
+    <div class="f-info">
       <h2>Thibault Lab</h2>
       <p>{{ site.address }}<br>{{ site.city }}<br><a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
     </div>
-    <div>
+    <div class="f-right">
       <div class="social">
         <a class="ib round" href="{{ site.linkedin }}" aria-label="LinkedIn">{{ icons.linkedin | safe }}</a>
         <a class="ib round" href="{{ site.youtube }}" aria-label="YouTube">{{ icons.youtube | safe }}</a>
